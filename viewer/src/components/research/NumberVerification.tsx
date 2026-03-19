@@ -1,4 +1,4 @@
-import { CheckCircle2, AlertTriangle, FileSearch, Target, TrendingUp, DollarSign, Database, ShieldAlert } from 'lucide-react';
+import { AlertTriangle, Target, TrendingUp, DollarSign, Database, ShieldAlert } from 'lucide-react';
 
 export function NumberVerification() {
   const tractionData = [
@@ -107,7 +107,7 @@ export function NumberVerification() {
           Several projections in the presentation deck significantly overshoot internal models. These items have been highlighted below.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {financialProjections.map((item, idx) => <DataCard key={idx} source="Internal Models / RAG SourceLM" {...item} isDiscrepancy={item.discrepancy} />)}
+          {financialProjections.map((item, idx) => <DataCard key={idx} {...item} isDiscrepancy={item.discrepancy} />)}
         </div>
       </div>
 
