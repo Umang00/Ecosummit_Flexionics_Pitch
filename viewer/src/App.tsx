@@ -9,9 +9,11 @@ import { FinancialsFunding } from './components/research/FinancialsFunding';
 import { TechnologyProducts } from './components/research/TechnologyProducts';
 import { TeamProfile } from './components/research/TeamProfile';
 import { PitchStrategy } from './components/research/PitchStrategy';
+import { NumberVerification } from './components/research/NumberVerification';
 
 const DOCS = [
   { id: 'pitch', title: 'Pitch Deck', icon: <Presentation className="w-5 h-5" />, Component: () => <PitchDeckViewer slides={slides} />, type: 'presentation' },
+  { id: 'r06', title: 'Number Verification', icon: <FileText className="w-5 h-5" />, Component: NumberVerification, type: 'research' },
   { id: 'r01', title: 'Event Analysis', icon: <FileText className="w-5 h-5" />, Component: EventAnalysis, type: 'research' },
   { id: 'r02', title: 'Financials & Funding', icon: <FileText className="w-5 h-5" />, Component: FinancialsFunding, type: 'research' },
   { id: 'r03', title: 'Technology & Products', icon: <FileText className="w-5 h-5" />, Component: TechnologyProducts, type: 'research' },
