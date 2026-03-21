@@ -16,6 +16,10 @@
 > **Key decisions log:**
 >
 > - Financial projections and unit economics removed completely until clearer verified data is available.
+> - **Speaker notes (Slides 2 & 3):** Fully written out to remove placeholders.
+> - **Slide 3 (FaaS):** Rewrote the description to address third-party target audiences ("Any data centre... they earn...") instead of direct address ("you", "your").
+> - **Slide 12:** Removed projected 2027 revenue ($52.9M) as it is an outdated 1-year-old projection.
+> - **Slide 13:** Removed claim of being "profitable" in speaker notes as it is inaccurate.
 > - 12-slide structure: roadmap split into 2 slides (2026 / 2027+), Ask and Exit are separate slides
 > - "Own Sites" is not a solution — moved to Slide 4 as proof context
 > - **3 Solutions (Slide 3):** FaaS | Wind & Solar Farm Partnerships | AI Energy Market Automation
@@ -119,7 +123,7 @@ BESS matters, but lithium-ion grid batteries max out at ~4 hours of discharge �
 
 **Solution 1: Flexibility as a Service (FaaS)**
 🔌 *For data centre and industrial asset owners*
-We can connect to your asset and operate your grid flexibility — end to end. TSO prequalification, daily bid submission, 24/7 monitoring, compliance reporting. You earn the revenue. We handle everything. Not software. Not an aggregator. A full-stack operator with skin in the game.
+Any data centre or industrial load can connect to our infrastructure and we operate their grid flexibility — end to end. TSO prequalification, daily bid submission, 24/7 monitoring, compliance reporting. They earn the revenue. We handle everything. Not software. Not an aggregator. A full-stack operator with skin in the game.
 
 ---
 
@@ -211,7 +215,7 @@ Flexionics operates two hybrid data centre sites in Sweden, serving as the live 
 
 - 80.9% peak participation rate (May–Sept 2025) in SE1 during high-demand periods
 - In ~2 GWh of events: Flexionics was the **only active asset delivering mFRR services** in SE1
-- Revenue split: 43% compute / **57% grid flexibility** — grid is now primary
+- Revenue split: 42% compute / **58% ancillary services**
 - Ancillary services exceeded compute revenue in most months
 
 <!-- BITCOIN REFERENCE REMOVED: Previous version referred to "digital computing" revenue as implicitly Bitcoin-mining revenue. Now referred to as "compute" only without specifics. -->
@@ -386,7 +390,7 @@ Flexionics operates two hybrid data centre sites in Sweden, serving as the live 
 **IRR on Phase 1:** >50% | **Per MW payback:** ~18 months
 -->
 
-**Existing capital in:** ~$14–15M till date
+**Existing capital in:** 79.5M SEK in debt
 
 **Contact:** bipin.patel@flexionics.com | www.flexionics.com
 
@@ -398,7 +402,7 @@ Flexionics operates two hybrid data centre sites in Sweden, serving as the live 
 <!-- FINANCIALS REMOVED:
 > The financial case: IRR above fifty percent on Phase 1. Revenue reaching fifty-two point nine million by 2027 at a seventy-two percent EBITDA margin. And because Phase 1 is so cash-generative, Phase 2 — another four and a half million — is mostly funded internally.
 -->
-> We are a profitable operating business today. This raise is an accelerant, not a lifeline."
+<!-- We are a profitable operating business today. This raise is an accelerant, not a lifeline." -->
 
 ---
 
@@ -545,7 +549,7 @@ Advancing to provide 24/7 AI-driven monitoring. Early-warning drift detection be
 
 - **650 MW** pipeline across 9 Nordic wind farms
 - **1.5 TWh** flexibility delivered by 2030
-- 2027 Revenue target: **$52.9M**
+<!-- - 2027 Revenue target: **$52.9M** (Removed: 1-year-old projection, no longer relevant) -->
 
 ### Speaker Notes (Bipin — word-for-word)
 >
@@ -559,7 +563,7 @@ Advancing to provide 24/7 AI-driven monitoring. Early-warning drift detection be
 >
 > And we roll this out globally. Germany, Norway, Japan — anywhere that renewables are intermittent and the grid needs dispatchable intelligence.
 >
-> The long-range picture: six hundred and fifty megawatts in our pipeline. One point five terawatt-hours of flexibility by 2030. Fifty-two point nine million dollars in revenue by 2027. And a model that does not require us to build new infrastructure at every new market — just a new API connection."
+> The long-range picture: six hundred and fifty megawatts in our pipeline. One point five terawatt-hours of flexibility by 2030. And a model that does not require us to build new infrastructure at every new market — just a new API connection."
 
 ---
 
@@ -601,7 +605,7 @@ The AI automation stack (AI Operations Platform, Health Monitor, Cloud Fleet Man
 >
 > Fourth — platform sale. Our technology stack has independent SaaS value. It can be sold apart from the physical business if the market dictates it.
 >
-> We are profitable, operating, and building. The exit paths are multiple, the upside is asymmetric, and the risk is already substantially de-risked by eleven thousand activations and six million dollars in delivered revenue.
+> We are operating and building. The exit paths are multiple, the upside is asymmetric, and the risk is already substantially de-risked by eleven thousand activations and six million dollars in delivered revenue.
 >
 > Thank you."
 

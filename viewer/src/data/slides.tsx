@@ -68,7 +68,7 @@ export const slides: SlideData[] = [
         </div>
       </div>
     ),
-    speakerNotes: "Three problems.\n\nFirst — the grid itself. Renewables are being added faster than the grid can handle them. Frequency deviations are happening in milliseconds... \n\nSecond — wind farms are being squeezed. Curtailment orders. Negative prices... \n\nThird — battery storage is real, but it is not the complete answer. Max out at ~4 hours of discharge. High capital cost... \n\nThree problems. Flexionics solves all three with one AI powered technology stack."
+    speakerNotes: "Three problems.\n\nFirst — the grid itself. Renewables are being added faster than the grid can handle them. Frequency deviations are happening in milliseconds. The assets we've had for decades — spinning reserves, slow-responding loads — are not fast or cheap enough to keep up.\n\nSecond — wind farms are being squeezed. Curtailment orders. Negative prices. Settlement penalties at every fifteen-minute interval. Revenue is being destroyed not because the wind stops — but because the grid cannot absorb what's being generated.\n\nThird — battery storage is real, but it is not the complete answer. Max out at ~4 hours of discharge. High capital cost. Degradation with every cycle. Compute-based flexibility offers something different: near-zero marginal cost after installation, and a second revenue stream from the compute itself running in parallel.\n\nThree problems. Flexionics solves all three with one AI powered technology stack."
   },
   {
     id: 'solutions',
@@ -80,7 +80,7 @@ export const slides: SlideData[] = [
         
         <div className="grid grid-cols-1 gap-3 mt-4">
           {[
-            { icon: <Server className="w-5 h-5" />, title: "Solution 1: Flexibility as a Service (FaaS)", tag: "For data centre and industrial asset owners", desc: "We can connect to your asset and operate your grid flexibility — end to end. TSO prequalification, daily bid submission, 24/7 monitoring, compliance reporting. You earn the revenue. We handle everything. Not software. Not an aggregator. A full-stack operator with skin in the game." },
+            { icon: <Server className="w-5 h-5" />, title: "Solution 1: Flexibility as a Service (FaaS)", tag: "For data centre and industrial asset owners", desc: "Any data centre or industrial load can connect to our infrastructure and we operate their grid flexibility — end to end. TSO prequalification, daily bid submission, 24/7 monitoring, compliance reporting. They earn the revenue. We handle everything. Not software. Not an aggregator. A full-stack operator with skin in the game." },
             { icon: <Wind className="w-5 h-5" />, title: "Solution 2: Wind & Solar Farm Partnerships", tag: "For renewable energy operators", desc: "Wind operators in the Nordic region face curtailment losses, imbalance penalties, and negative spot prices. We can install compute infrastructure behind their meter. During curtailment, our servers absorb excess generation at near-zero cost. The loss becomes revenue. Zero operational burden on the farm." },
             { icon: <Cpu className="w-5 h-5" />, title: "Solution 3: AI Energy Market Automation", tag: "For operators who want to automate their flexibility operations", desc: "Managing Nordic flexibility markets manually requires a specialist quant team, months of TSO setup, and daily bid windows. Our AI automation technology is being built to replace the trading desk, the reporting team, and the compliance analyst — automatically submitting bids, generating TSO reports, and producing audit evidence for every activation." }
           ].map((item, i) => (
@@ -97,7 +97,7 @@ export const slides: SlideData[] = [
         <div className="absolute top-8 right-10 text-slate-500 font-medium tracking-wide text-xs border border-slate-800 p-2 rounded bg-slate-900/50">All three powered by our proprietary AI powered technology.</div>
       </div>
     ),
-    speakerNotes: "We are opening three capabilities — all built on the same proprietary AI powered technology stack.\n\nFirst: Flexibility as a Service. Any data centre or industrial load can connect to our infrastructure... \n\nSecond: Wind and solar farm partnerships. We can install compute infrastructure at the farm... \n\nThird: AI Energy Market Automation. For operators who want the intelligence without the integration — we are building the AI layer to automate the trading desk..."
+    speakerNotes: "We are opening three capabilities — all built on the same proprietary AI powered technology stack.\n\nFirst: Flexibility as a Service. Any data centre or industrial load can connect to our infrastructure. We can run every stage of their grid participation — from TSO approval to collecting the monthly payment. They receive the revenue. We do the work.\n\nSecond: Wind and solar farm partnerships. We can install compute infrastructure at the farm, behind the meter. When curtailment hits — and it hits often — our servers absorb the generation that the grid can't take. What was a loss becomes a passive monthly payment to the operator.\n\nThird: AI Energy Market Automation. For operators who want the intelligence without the integration — we are building the AI layer to automate the trading desk, the compliance reporting, and the bid submission. This system will become a technology suite any operator can access."
   },
   {
     id: 'proof',
@@ -195,14 +195,14 @@ export const slides: SlideData[] = [
             </div>
             <div className="bg-[#0a0f16] border border-slate-700/50 p-4 rounded-lg text-slate-300 text-xs">
               <ul className="list-disc ml-4 space-y-1">
-                 <li>Revenue split: 43% compute / <strong>57% grid flexibility</strong> — grid is primary</li>
+                 <li>Revenue split: 42% compute / <strong>58% ancillary services</strong></li>
                  <li>Ancillary services exceeded compute revenue in most months</li>
               </ul>
             </div>
          </div>
       </div>
     ),
-    speakerNotes: "Ten months of numbers. Not estimates. Not projections. These are cleared, settled, audited revenue events.\n\nOver six million dollars in total revenue. Nine times growth in five months. Two hundred and twenty-nine and a half gigawatt-hours committed.\n\nEleven thousand, two hundred and forty-five times the Swedish national grid called us. Every single time, we answered.\n\nAnd today — fifty-seven percent of our revenue comes from the grid itself."
+    speakerNotes: "Ten months of numbers. Not estimates. Not projections. These are cleared, settled, audited revenue events.\n\nOver six million dollars in total revenue. Nine times growth in five months. Two hundred and twenty-nine and a half gigawatt-hours committed.\n\nEleven thousand, two hundred and forty-five times the Swedish national grid called us. Every single time, we answered.\n\nAnd today — fifty-eight percent of our revenue comes from the grid itself."
   },
   {
     id: 'business_model',
@@ -273,7 +273,7 @@ export const slides: SlideData[] = [
             { name: "Amy Shuai", title: "CFO", desc: "Chartered Accountant (ICAEW) / 25+ years Global Finance & Investment Banking / UBS • Deutsche Bank • RBS", tag: "The money" },
             { name: "Appointed – Announcement pending", title: "CTO", desc: "AI & Machine Learning (Head of AI/ML, Investment Banking) / Quantitative Finance & Credit Risk / Technology Strategy & Automation", tag: "The machine" },
             { name: "Giridhar Gandi", title: "Head of Flexibility", desc: "MSc Renewable Energy, KTH Royal Institute of Technology + UPC / EIT InnoEnergy • Master Thesis, Siemens Energy / Energy Systems • Smart Grids • VPP & PPA", tag: "The grid expert" },
-            { name: "Umang Thakkar", title: "AI Product & Automation Expert", desc: "AI Product Builder (14+ deployed production systems) / Multi-Agent Systems & LLM Architect / End-to-End AI Automation Pipeline Engineering", tag: "The AI builder" }
+            { name: "Umang Thakkar", title: "AI Product & Automation Expert", desc: "AI Product Builder (14+ deployed production systems) / Multi-Agent Systems & LLM Architect / End-to-End AI Automation / Pipeline Engineering", tag: "The AI builder" }
           ].map((m, i) => (
              <div key={i} className="bg-slate-900 border border-slate-800 p-3 rounded-xl flex flex-col cursor-default hover:border-teal-500/50 transition-colors">
                <div className="w-10 h-10 rounded-full bg-teal-500/20 mb-2 flex items-center justify-center text-teal-400 font-bold text-base">{m.title === "CTO" ? "C" : m.name.charAt(0)}</div>
@@ -323,12 +323,12 @@ export const slides: SlideData[] = [
           </ul>
         </div>
         <p className="mt-6 text-slate-500 text-[11px] tracking-wide text-center">
-           <strong className="text-slate-400">Existing capital in:</strong> ~$14–15M till date<br/>
+           <strong className="text-slate-400">Existing capital in:</strong> 79.5M SEK in debt<br/>
            <span className="text-teal-500 font-bold block text-sm mt-3 border-t border-slate-800 pt-3">Contact: bipin.patel@flexionics.com | www.flexionics.com</span>
         </p>
       </div>
     ),
-    speakerNotes: "The ask: ten point five million dollars. Convertible preferred equity.\n\nThis takes us from fourteen megawatts to forty-four. Three times the current capacity. It also launches our service commercially — FaaS clients, wind partnerships, AI automation licensing.\n\nWe are a profitable operating business today. This raise is an accelerant, not a lifeline."
+    speakerNotes: "The ask: ten point five million dollars. Convertible preferred equity.\n\nThis takes us from fourteen megawatts to forty-four. Three times the current capacity. It also launches our service commercially — FaaS clients, wind partnerships, AI automation licensing."
   },
   {
     id: 'appendix_divider',
@@ -447,10 +447,9 @@ export const slides: SlideData[] = [
              ))}
            </div>
 
-           <div className="flex justify-between items-center border-t border-slate-700/50 pt-6 bg-slate-900/30 p-5 rounded-xl">
-              <div><span className="block text-slate-500 text-[10px] font-bold uppercase tracking-widest mb-1">Long-term Pipeline</span><span className="text-lg font-bold text-white">650 MW<span className="text-[10px] text-slate-400 font-light block mt-1">across 9 Nordic wind farms</span></span></div>
-              <div><span className="block text-slate-500 text-[10px] font-bold uppercase tracking-widest mb-1">Flexibility Enablement</span><span className="text-lg font-bold text-teal-400">1.5 TWh<span className="text-[10px] text-slate-400 font-light block mt-1">by 2030</span></span></div>
-              <div><span className="block text-slate-500 text-[10px] font-bold uppercase tracking-widest mb-1">Projected 2027 Revenue</span><span className="text-2xl font-black text-emerald-400">$52.9M</span></div>
+           <div className="flex justify-center gap-32 items-center border-t border-slate-700/50 pt-6 bg-slate-900/30 p-5 rounded-xl">
+              <div className="text-center"><span className="block text-slate-500 text-[10px] font-bold uppercase tracking-widest mb-1">Long-term Pipeline</span><span className="text-lg font-bold text-white">650 MW<span className="text-[10px] text-slate-400 font-light block mt-1">across 9 Nordic wind farms</span></span></div>
+              <div className="text-center"><span className="block text-slate-500 text-[10px] font-bold uppercase tracking-widest mb-1">Flexibility Enablement</span><span className="text-lg font-bold text-teal-400">1.5 TWh<span className="text-[10px] text-slate-400 font-light block mt-1">by 2030</span></span></div>
            </div>
         </div>
       </div>
@@ -485,6 +484,6 @@ export const slides: SlideData[] = [
         </div>
       </div>
     ),
-    speakerNotes: "Four exit paths. All credible. All near-term.\n\nFirst — and most likely — strategic acquisition. The utilities building flexibility portfolios are in this room. They are not building from scratch in three years. They are buying. We are what they want to buy.\n\nSecond — infrastructure fund buyout. Contracted recurring revenue, physical assets, proven technology. This is infrastructure, priced like infrastructure.\n\nThird — IPO. By 2030 we are a meaningful revenue-generating business in a three-hundred-billion-dollar market. The listing case writes itself.\n\nFourth — technology sale. Our technology stack has independent SaaS value. It can be sold apart from the physical business if the market dictates it.\n\nWe are profitable, operating, and building. The exit paths are multiple, the upside is asymmetric, and the risk is already substantially de-risked by eleven thousand activations and six million dollars in delivered revenue.\n\nThank you."
+    speakerNotes: "Four exit paths. All credible. All near-term.\n\nFirst — and most likely — strategic acquisition. The utilities building flexibility portfolios are in this room. They are not building from scratch in three years. They are buying. We are what they want to buy.\n\nSecond — infrastructure fund buyout. Contracted recurring revenue, physical assets, proven technology. This is infrastructure, priced like infrastructure.\n\nThird — IPO. By 2030 we are a meaningful revenue-generating business in a three-hundred-billion-dollar market. The listing case writes itself.\n\nFourth — technology sale. Our technology stack has independent SaaS value. It can be sold apart from the physical business if the market dictates it.\n\nWe are operating and building. The exit paths are multiple, the upside is asymmetric, and the risk is already substantially de-risked by eleven thousand activations and six million dollars in delivered revenue.\n\nThank you."
   }
 ];
