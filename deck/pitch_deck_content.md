@@ -252,9 +252,10 @@ Flexionics operates two hybrid data centre sites in Sweden, serving as the live 
 
 | Stream | Source | Trigger |
 |--------|--------|---------|
-| Capacity Payment | SVK (Swedish national grid) | Monthly — just for being available |
-| Energy Payment | Per activation event | Each time the TSO activates us |
-| Compute Revenue | Digital workloads | Continuous baseline operation during grid standby |
+| **1. Compute Revenue** | Digital workloads | Continuous baseline operation during grid standby |
+| **2. Ancillary Services** | SVK (Grid Operators) | Dual component: Capacity + Energy |
+| &nbsp;&nbsp;&nbsp;• Capacity (SVK) | Availability | Monthly — just for being available |
+| &nbsp;&nbsp;&nbsp;• Energy | Per activation | Each time the TSO activates us |
 
 #### Upcoming Client Revenue (2026 — active onboarding starting)
 

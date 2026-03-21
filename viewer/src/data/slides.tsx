@@ -217,10 +217,18 @@ export const slides: SlideData[] = [
         <div className="grid grid-cols-2 gap-4 mb-4">
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 flex flex-col">
             <h3 className="text-lg font-bold text-white mb-3 border-b border-slate-700 pb-2">Current Revenue — Own Sites</h3>
-            <div className="space-y-2 text-xs text-slate-300">
-              <div className="flex flex-col"><span className="text-teal-400 font-bold">Capacity Payment (SVK)</span> <span className="text-[10px] mt-0.5">Monthly — just for being available</span></div>
-              <div className="flex flex-col"><span className="text-teal-400 font-bold">Energy Payment</span> <span className="text-[10px] mt-0.5">Each time the TSO activates us</span></div>
-              <div className="flex flex-col"><span className="text-teal-400 font-bold">Compute Revenue (Digital workloads)</span> <span className="text-[10px] mt-0.5">Continuous baseline operation during grid standby</span></div>
+            <div className="space-y-4 text-xs text-slate-300">
+              <div className="flex flex-col">
+                <span className="text-teal-400 font-bold border-b border-teal-500/20 mb-1 pb-1">1. Compute Revenue</span>
+                <span className="text-[10px] text-slate-400">Continuous baseline operation during grid standby (Digital workloads)</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="text-teal-400 font-bold border-b border-teal-500/20 mb-1 pb-1">2. Ancillary Services Revenue</span>
+                <div className="pl-2 space-y-1.5 mt-1 border-l border-slate-800">
+                  <div className="flex flex-col"><span className="text-white font-medium text-[11px]">• Capacity (SVK)</span> <span className="text-[9px] text-slate-500">Monthly — just for being available</span></div>
+                  <div className="flex flex-col"><span className="text-white font-medium text-[11px]">• Energy</span> <span className="text-[9px] text-slate-500">Each time the TSO activates us</span></div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 flex flex-col">
