@@ -18,6 +18,8 @@
 > - Financial projections and unit economics removed completely until clearer verified data is available.
 > - **Speaker notes (Slides 2 & 3):** Fully written out to remove placeholders.
 > - **Slide 3 (FaaS):** Rewrote the description to address third-party target audiences ("Any data centre... they earn...") instead of direct address ("you", "your").
+> - **Slide 5:** Removed "9x in 5 months" revenue growth metric as it was inconsistent; replaced with "58% ancillary services" metric.
+> - **Slide 8:** Removed "Existing capital in: 79.5M SEK in debt" to avoid group company complications.
 > - **Slide 12:** Removed projected 2027 revenue ($52.9M) as it is an outdated 1-year-old projection.
 > - **Slide 13:** Removed claim of being "profitable" in speaker notes as it is inaccurate.
 > - 12-slide structure: roadmap split into 2 slides (2026 / 2027+), Ask and Exit are separate slides
@@ -168,10 +170,10 @@ Flexionics operates two hybrid data centre sites in Sweden, serving as the live 
 
 | Site | Capacity | Grid Services | Status |
 |------|----------|---------------|--------|
-| Boden, SE1 | 12 MW | FCR-D, mFRR, aFRR | ✅ LIVE |
+| Boden, SE1 | 12 MW | FCR-D, mFRR | ✅ LIVE |
 | Utansjö, SE2 | 2 MW | mFRR, FFR | ✅ LIVE |
 
-- Our proprietary **On-Site Controller** drives sub-second responses live today
+- Our proprietary **Edge Controller** drives sub-second responses live today
 - Our in-house **Cloud Fleet Manager** is advancing to centralise daily bid management
 - Our **AI Operations Engine** is getting developed to fully automate market submissions
 - Our **AI Health Monitor** is getting built to provide predictive 24/7 reliability oversight
@@ -207,7 +209,8 @@ Flexionics operates two hybrid data centre sites in Sweden, serving as the live 
 | KPI | Value |
 |-----|-------|
 | Total Revenue | **>$6M** |
-| Revenue Growth | **9× in 5 months ($56k to $487k from Jan–May 2025)** |
+| Ancillary Services Share | **58%** *(of total revenue)* |
+<!-- | Revenue Growth | **9× in 5 months ($56k to $487k from Jan–May 2025)** (Removed: Inconsistent revenue) -->
 | Grid Capacity Committed | **229.5 GWh** |
 | Real Grid Activations Delivered | **26.6 GWh** |
 | mFRR Activations (SE1) | **11,245** |
@@ -226,13 +229,11 @@ Flexionics operates two hybrid data centre sites in Sweden, serving as the live 
 >
 > "Ten months of numbers. Not estimates. Not projections. These are cleared, settled, audited revenue events.
 >
-> Over six million dollars in total revenue. Nine times growth in five months — fifty-six thousand dollars a month became four hundred and eighty-seven thousand. Two hundred and twenty-nine and a half gigawatt-hours committed to grid capacity markets. Twenty-six point six gigawatt-hours actually delivered through live activations.
+> Over six million dollars in total revenue. Fifty-eight percent of our revenue comes from ancillary services. Two hundred and twenty-nine and a half gigawatt-hours committed to grid capacity markets. Twenty-six point six gigawatt-hours actually delivered through live activations.
 >
 > Eleven thousand, two hundred and forty-five times the Swedish national grid called us. Every single time, we answered.
 >
-> In around two gigawatt-hours of those events, we were the only active asset delivering mFRR services in the entire SE1 market. Not one of the biggest. The only one.
->
-> And today — fifty-seven percent of our revenue comes from the grid itself. The flexibility side of the business has overtaken compute."
+> In around two gigawatt-hours of those events, we were the only active asset delivering mFRR services in the entire SE1 market. Not one of the biggest. The only one."
 
 ---
 
@@ -393,7 +394,7 @@ Flexionics operates two hybrid data centre sites in Sweden, serving as the live 
 **IRR on Phase 1:** >50% | **Per MW payback:** ~18 months
 -->
 
-**Existing capital in:** 79.5M SEK in debt
+<!-- **Existing capital in:** 79.5M SEK in debt (Removed: avoids complication as group companies are involved) -->
 
 **Contact:** bipin.patel@flexionics.com | www.flexionics.com
 
@@ -437,7 +438,7 @@ NEW TITLE: "What Powers Our Operations" or "Our Operational Technology Stack" �
 
 *Four technology layers, capturing our operational expertise in software:*
 
-**1. On-Site Controller (Live)**
+**1. Edge Controller (Live)**
 Sub-200ms dispatch, <0.7s grid response. Local telemetry every 10 seconds. Stays operational even during connectivity loss. No SLA constraints.
 *Handles:* Activation execution, power ramp, setpoint tracking
 
@@ -458,7 +459,7 @@ Training for automated trading and natural language querying. Built to generate 
 Advancing to provide 24/7 AI-driven monitoring. Early-warning drift detection before it becomes a compliance issue. Automated alerting.
 *Handles:* Asset health, reliability, regulatory readiness
 
-<!-- ORIGINAL NAMES PRESERVED: On-Site Controller = Iceberg Edge, Cloud Fleet Manager = Iceberg Harbour, AI Automation Engine = Compass, Predictive Health Monitor = Northwatch. Polaris (fleet deployment) merged into Cloud Fleet Manager for slide brevity. Use original names in 1-on-1 technical discussions. -->
+<!-- ORIGINAL NAMES PRESERVED: Edge Controller = Iceberg Edge, Cloud Fleet Manager = Iceberg Harbour, AI Automation Engine = Compass, Predictive Health Monitor = Northwatch. Polaris (fleet deployment) merged into Cloud Fleet Manager for slide brevity. Use original names in 1-on-1 technical discussions. -->
 
 **Key technology message:**
 > "No human trader can respond in 700 milliseconds without software. This isn't AI as a feature. This is AI as the operating system for the future grid."

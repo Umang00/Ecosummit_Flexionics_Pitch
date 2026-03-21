@@ -116,7 +116,7 @@ export const slides: SlideData[] = [
             <div className="bg-[#05080c]/80 backdrop-blur-md border border-slate-700/50 p-4 rounded-xl flex items-center justify-between">
               <div>
                 <h3 className="text-lg font-bold text-white">Boden, SE1</h3>
-                <p className="text-slate-400 text-xs mt-1">FCR-D, mFRR, aFRR</p>
+                <p className="text-slate-400 text-xs mt-1">FCR-D, mFRR</p>
               </div>
               <div className="text-right">
                 <span className="text-2xl font-bold text-teal-400">12 MW</span>
@@ -141,7 +141,7 @@ export const slides: SlideData[] = [
 
           <div className="max-w-4xl space-y-2">
             {[
-              "Our proprietary On-Site Controller drives sub-second responses live today",
+              "Our proprietary Edge Controller drives sub-second responses live today",
               "Our in-house Cloud Fleet Manager is advancing to centralise daily bid management",
               "Our AI Operations Engine is getting developed to fully automate market submissions",
               "Our AI Health Monitor is getting built to provide predictive 24/7 reliability oversight"
@@ -173,7 +173,7 @@ export const slides: SlideData[] = [
          <div className="grid grid-cols-3 gap-4 max-w-4xl mx-auto w-full">
             {[
               { label: "Total Revenue", val: ">$6M" },
-              { label: "Revenue Growth", val: "9× in 5 mths", sub: "(Jan–May 2025)" },
+              { label: "Ancillary Services Share", val: "58%", sub: "of total revenue" },
               { label: "Grid Capacity Committed", val: "229.5 GWh" },
               { label: "Real Grid Deliveries", val: "26.6 GWh" },
               { label: "mFRR Activations (SE1)", val: "11,245" },
@@ -203,7 +203,7 @@ export const slides: SlideData[] = [
          </div>
       </div>
     ),
-    speakerNotes: "Ten months of numbers. Not estimates. Not projections. These are cleared, settled, audited revenue events.\n\nOver six million dollars in total revenue. Nine times growth in five months. Two hundred and twenty-nine and a half gigawatt-hours committed.\n\nEleven thousand, two hundred and forty-five times the Swedish national grid called us. Every single time, we answered.\n\nAnd today — fifty-eight percent of our revenue comes from the grid itself."
+    speakerNotes: "Ten months of numbers. Not estimates. Not projections. These are cleared, settled, audited revenue events.\n\nOver six million dollars in total revenue. Fifty-eight percent of our revenue comes from ancillary services. Two hundred and twenty-nine and a half gigawatt-hours committed.\n\nEleven thousand, two hundred and forty-five times the Swedish national grid called us. Every single time, we answered.\n\nIn around two gigawatt-hours of those events, we were the only active asset delivering mFRR services in the entire SE1 market."
   },
   {
     id: 'business_model',
@@ -280,7 +280,7 @@ export const slides: SlideData[] = [
           {[
             { name: "Bipin Patel", title: "CEO & Founder", desc: "Theoretical Physicist (MSc, UPenn) / Former CRO, HKEX Group (Hong Kong Stock Exchange) / Deutsche Bank • London Clearing House • Japan Exchange Group", tag: "The operator" },
             { name: "Amy Shuai", title: "CFO", desc: "Chartered Accountant (ICAEW) / 25+ years Global Finance & Investment Banking / UBS • Deutsche Bank • RBS", tag: "The money" },
-            { name: "Appointed – Announcement pending", title: "CTO", desc: "AI & Machine Learning (Head of AI/ML, Investment Banking) / Quantitative Finance & Credit Risk / Technology Strategy & Automation", tag: "The machine" },
+            { name: "Announcement pending", title: "CTO", desc: "AI & Machine Learning (Head of AI/ML, Investment Banking) / Quantitative Finance & Credit Risk / Technology Strategy & Automation", tag: "The machine" },
             { name: "Giridhar Gandi", title: "Head of Flexibility", desc: "MSc Renewable Energy, KTH Royal Institute of Technology + UPC / EIT InnoEnergy • Master Thesis, Siemens Energy / Energy Systems • Smart Grids • VPP & PPA", tag: "The grid expert" },
             { name: "Umang Thakkar", title: "AI Product & Automation Expert", desc: "AI Product Builder (14+ deployed production systems) / Multi-Agent Systems & LLM Architect / End-to-End AI Automation / Pipeline Engineering", tag: "The AI builder" }
           ].map((m, i) => (
@@ -315,7 +315,7 @@ export const slides: SlideData[] = [
         <p className="text-teal-400 mb-8 italic text-sm">14 MW → 44 MW. One raise. Three times the capacity.</p>
 
         <div className="grid grid-cols-1 gap-6 w-full max-w-3xl text-left bg-slate-900 border border-slate-800 p-6 rounded-xl mx-auto">
-          <h4 className="text-lg font-bold text-white mb-4 uppercase tracking-wider">Use of Funds</h4>
+          <h4 className="text-lg font-bold text-white mb-4 uppercase tracking-wider">Use of Funds - Scale from being cash flow positive to P&L positive</h4>
           <ul className="space-y-3">
             {[
               "Hardware procurement + installation at Utansjö",
@@ -331,10 +331,9 @@ export const slides: SlideData[] = [
             ))}
           </ul>
         </div>
-        <p className="mt-6 text-slate-500 text-[11px] tracking-wide text-center">
-           <strong className="text-slate-400">Existing capital in:</strong> 79.5M SEK in debt<br/>
-           <span className="text-teal-500 font-bold block text-sm mt-3 border-t border-slate-800 pt-3">Contact: bipin.patel@flexionics.com | www.flexionics.com</span>
-        </p>
+        <div className="mt-8 text-center w-full">
+           <span className="text-teal-500 font-bold block text-sm">Contact: bipin.patel@flexionics.com | www.flexionics.com</span>
+        </div>
       </div>
     ),
     speakerNotes: "The ask: ten point five million dollars. Convertible preferred equity.\n\nThis takes us from fourteen megawatts to forty-four. Three times the current capacity. It also launches our service commercially — FaaS clients, wind partnerships, AI automation licensing."
@@ -362,7 +361,7 @@ export const slides: SlideData[] = [
         
         <div className="grid grid-cols-4 gap-3 items-stretch mb-6">
           {[
-            { title: "On-Site Controller (Live)", icon: <Cpu className="w-5 h-5" />, tasks: "Sub-200ms dispatch, <0.7s grid response. Local telemetry every 10 seconds. Stays operational even during connectivity loss. No SLA constraints.", hl: "Activation execution, power ramp, setpoint tracking" },
+            { title: "Edge Controller (Live)", icon: <Cpu className="w-5 h-5" />, tasks: "Sub-200ms dispatch, <0.7s grid response. Local telemetry every 10 seconds. Stays operational even during connectivity loss. No SLA constraints.", hl: "Activation execution, power ramp, setpoint tracking" },
             { title: "Cloud Fleet Manager (In Dev)", icon: <Globe className="w-5 h-5" />, tasks: "Designed for central oversight across all sites simultaneously. Bid management, win-rate analytics, audit trails, and TSO-compatible evidence exports.", hl: "Fleet visibility, reporting, market interface" },
             { title: "AI Automation Engine (In Dev)", icon: <Network className="w-5 h-5" />, tasks: "Training for automated trading and natural language querying. Built to generate and submit bids securely to our BSP partner.", hl: "Bid strategy, TSO reporting, market intelligence" },
             { title: "Predictive Health Monitor (In Dev)", icon: <Shield className="w-5 h-5" />, tasks: "Advancing to provide 24/7 AI-driven monitoring. Early-warning drift detection before it becomes a compliance issue. Automated alerting.", hl: "Asset health, reliability, regulatory readiness" }
