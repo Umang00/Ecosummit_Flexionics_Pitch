@@ -24,6 +24,7 @@
 > - "Own Sites" is not a solution — moved to Slide 4 as proof context
 > - **3 Solutions (Slide 3):** FaaS | Wind & Solar Farm Partnerships | AI Energy Market Automation
 > - **Slide 2 problems** aligned with website: Grid Unstable → Wind Strained → Batteries Partial (AI Data Centres problem removed)
+> - **Slide 2 Statistic:** Updated label to "Renewable Energy Target by 2030" and added source attribution: "EU Renewable Energy Directive (RED III)" for maximum credibility.
 > - **Slide 7:** Partner names anonymised — Bixia (BRP/BSP) → "our BSP partner", Hansen Technologies (trading software) → "our trading software platform"
 > - **Slide 8:** 4 initiatives — FaaS launch, Wind pilot, AI Automation external launch *(new)*, BESS integration *(moved from 3rd to 4th)*
 > - **Investment ask** on Slide 11 only (not Slide 1) — confirmed by YouTube pitch analysis
@@ -66,7 +67,8 @@
 
 - Three-panel layout (matching website) — each panel: audience icon + problem title + body text
 ![Grid Instability](/grid-hero.png)
-- Key stat overlay: "42.5% intermittent energy by 2030"
+- Key stat overlay: "42.5% Renewable Energy Target by 2030"
+- Source Attribution: "EU Renewable Energy Directive (RED III)"
 - Sub-headline: "The Flexibility Gap"
 
 <!-- PROBLEMS REORDERED 2026-03-18: Previously ordered as Curtailment / BESS / AI Data Centres. Updated to match the website's three official problems (ProblemSection component): Grid Instability → Wind Strained → Batteries Partial. The 'AI Data Centres' problem has been removed — it was not from the website and is not one of our three stated problems. -->

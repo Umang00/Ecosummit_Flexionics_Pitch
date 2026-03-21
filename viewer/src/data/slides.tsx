@@ -45,7 +45,8 @@ export const slides: SlideData[] = [
         <div className="absolute top-8 right-10">
           <div className="inline-flex flex-col items-end">
             <span className="text-4xl font-bold text-teal-400">42.5%</span>
-            <span className="text-xs font-medium text-slate-400 uppercase tracking-widest">Intermittent Energy by 2030</span>
+            <span className="text-xs font-medium text-slate-400 uppercase tracking-widest">Renewable Energy Target by 2030</span>
+            <span className="text-[8px] text-slate-500 mt-1 uppercase tracking-tighter">Source: EU Renewable Energy Directive (RED III)</span>
           </div>
         </div>
         
