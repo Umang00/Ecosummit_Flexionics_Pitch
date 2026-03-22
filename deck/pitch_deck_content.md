@@ -52,14 +52,11 @@
 - **Sub-line:** Transforming compute infrastructure into high-value grid flexibility.
 
 ### Speaker Notes (Bipin — word-for-word)
->
-> "Good afternoon. I'm Bipin Patel, CEO and Founder of Flexionics.
->
-> Flexionics exists at the intersection of computation and grid infrastructure. We transform flexible assets — data centres, compute clusters — into active participants in the energy market. Our technology anticipates, adapts, and optimises in real time.
->
-> The energy transition demands more than ambition. It demands flexible intelligence. That's what we build — bit by bit."
-
-*(Pause. Let the tagline land. Walk to the centre of the stage.)*
+> "Flexionics operates at the boundary between compute infrastructure and grid infrastructure. We take flexible assets — HPC data centres, industrial loads — and turn them into active, contracted participants in energy markets. Our technology decides, adapts, and executes in real time.
+> 
+> The grid does not need ambition. It needs millisecond-accurate intelligence. That is what we build."
+> 
+> [Pause. Step forward.]
 
 ---
 
@@ -95,16 +92,15 @@ Curtailment orders, negative prices, and 15-min penalties are destroying wind fa
 BESS matters, but lithium-ion grid batteries max out at ~4 hours of discharge — then they need to recharge. Add capacity fade over charge cycles and high CapEx leave a gap. Compute-based flexibility offers near-zero marginal cost and dual revenue streams.
 
 ### Speaker Notes (Bipin — word-for-word)
->
-> "Three problems.
->
-> First — the grid itself. Renewables are being added faster than the grid can handle them. Frequency deviations are happening in milliseconds. The assets we've had for decades — spinning reserves, slow-responding loads — are not fast or cheap enough to keep up.
->
-> Second — wind farms are being squeezed. Curtailment orders. Negative prices. Settlement penalties at every fifteen-minute interval. Revenue is being destroyed not because the wind stops — but because the grid cannot absorb what's being generated.
->
-> Third — battery storage is real, but it is not the complete answer. Max out at ~4 hours of discharge. High capital cost. Degradation with every cycle. Compute-based flexibility offers something different: near-zero marginal cost after installation, and a second revenue stream from the compute itself running in parallel.
->
-> Three problems. Flexionics solves all three with one technology stack."
+> "Three structural problems. All of them unsolved. All of them creating value for whoever solves them first.
+> 
+> One. The grid. Renewables are being connected faster than balancing infrastructure can absorb them. Frequency deviations are measured in milliseconds now. The reserves we built this system around — spinning reserves, slow-responding loads — are too slow, too expensive, and increasingly inadequate.
+> 
+> Two. Wind operators. Curtailment orders. Negative spot prices. Fifteen-minute imbalance penalties on both sides of the settlement window. Revenue is not being lost because the wind stopped. It is being lost because the grid cannot take what the wind is generating.
+> 
+> Three. Batteries. Real technology, real value — but structurally incomplete. Four hours of discharge maximum. Capacity degrades with every charge cycle. High capital cost, long payback. Compute-based flexibility has near-zero marginal cost after installation, and it generates a second revenue stream while it waits.
+> 
+> Three problems. One technology stack. That is Flexionics."
 
 ---
 
@@ -142,14 +138,13 @@ Wind operators in the Nordic region face curtailment losses, imbalance penalties
 Managing Nordic flexibility markets manually requires a specialist quant team, months of TSO setup, and daily bid windows. Our AI automation technology is being built to replace the trading desk, the reporting team, and the compliance analyst — automatically submitting bids, generating TSO reports, and producing audit evidence for every activation. Built from our own operation. Eliminating pain we lived ourselves.
 
 ### Speaker Notes (Bipin — word-for-word)
->
-> "We are opening three capabilities — all built on the same proprietary AI Powered technology stack.
->
-> First: Flexibility as a Service. Any data centre or industrial load can connect to our infrastructure. We can run every stage of their grid participation — from TSO approval to collecting the monthly payment. They receive the revenue. We do the work.
->
-> Second: Wind and solar farm partnerships. We can install compute infrastructure at the farm, behind the meter. When curtailment hits — and it hits often — our servers absorb the generation that the grid can't take. What was a loss becomes a passive monthly payment to the operator.
->
-> Third: AI Energy Market Automation. For operators who want the intelligence without the integration — we are building the AI layer to automate the trading desk, the compliance reporting, and the bid submission. This system will become a technology suite any operator can access."
+> "We built this technology for our own sites. We are now opening it to the market — three distinct products, one underlying platform.
+> 
+> Solution one: Flexibility as a Service. Any HPC data centre or industrial asset connects to our infrastructure. We handle every layer — TSO prequalification, daily bid submission, compliance reporting, settlement collection. The client receives the revenue. We operate it. We are not a software vendor. We are not an aggregator. We are a full-stack operator with direct skin in the game.
+> 
+> Solution two: Wind and solar farm partnerships. We deploy compute infrastructure at the farm, behind the meter. When curtailment hits — and in SE1 and 2, it hits regularly — our servers absorb the excess generation the grid cannot take. The curtailment loss becomes a monthly revenue line for the operator. Zero additional operational burden on their side.
+> 
+> Solution three: AI Energy Market Automation. For operators who want to participate in flexibility markets without building the internal capability — we are productising the intelligence layer. Automated bid submission. Automated TSO reporting. Automated audit evidence for every activation. The trading desk, the compliance function, and the reporting analyst — replaced by an AI-enabled software suite."
 
 ---
 
@@ -183,14 +178,13 @@ Flexionics operates two hybrid data centre sites in Sweden, serving as the live 
 <!-- MELLERUD: Confirmed inactive. Mining halted 2022. Lease expired March 2026. Repair facility only. Not shown as active site. -->
 
 ### Speaker Notes (Bipin — word-for-word)
->
-> "The core technology behind our solutions is proven on our own sites first.
->
-> Boden, twelve megawatts. Utansjö, two megawatts. Both live today, generating strong revenue in the most demanding ancillary markets.
->
-> Our proprietary site controllers are already executing sub-second responses. And to scale our operations, we are actively developing our in-house cloud fleet manager, AI operations engine, and predictive health monitors. We are testing these native systems on our own infrastructure before we wrap them into external solutions.
->
-> We aren't starting from scratch — we have been in the field for years, solving these problems using manual oversight and third-party tools. Now we are internalising that expertise into a proprietary stack. By building it for ourselves first, we know exactly what it takes to deliver for others."
+> "Before we offer a technology to the market, we run it on ourselves.
+> 
+> Boden — twelve megawatts. FCR-D and mFRR. Live today. Utansjö — two megawatts. mFRR and FFR. Also live.
+> 
+> Our proprietary Edge Controllers are already executing sub-second responses on those sites. The Cloud Fleet Manager, AI Operations Engine, and Health Monitor are in active development — being stress-tested on our own infrastructure before we wrap them into client-facing products.
+> 
+> We do not sell what we have not proven."
 
 ---
 
@@ -227,13 +221,17 @@ Flexionics operates two hybrid data centre sites in Sweden, serving as the live 
 
 ### Speaker Notes (Bipin — word-for-word)
 >
-> "Ten months of numbers. Not estimates. Not projections. These are cleared, settled, audited revenue events.
->
-> Over six million dollars in total revenue. Fifty-eight percent of our revenue comes from ancillary services. Two hundred and twenty-nine and a half gigawatt-hours committed to grid capacity markets. Twenty-six point six gigawatt-hours actually delivered through live activations.
->
-> Eleven thousand, two hundred and forty-five times the Swedish national grid called us. Every single time, we answered.
->
-> In around two gigawatt-hours of those events, we were the only active asset delivering mFRR services in the entire SE1 market. Not one of the biggest. The only one."
+> "Ten months. Cleared, settled, audited numbers.
+> 
+> Over six million dollars in total revenue. Fifty-eight percent from ancillary services. Two hundred and twenty-nine gigawatt-hours of capacity committed to the grid.
+> 
+> The Swedish national grid called us eleven thousand, two hundred and forty-five times. We answered every single one.
+> 
+> In approximately two gigawatt-hours of those activations — roughly ten percent — we were the only active asset delivering mFRR services in the entire SE1 market.
+> 
+> Not the largest. The only one.
+> 
+> That is not a marketing claim. That is a settlement record."
 
 ---
 
@@ -281,13 +279,13 @@ Flexionics operates two hybrid data centre sites in Sweden, serving as the live 
 
 ### Speaker Notes (Bipin — word-for-word)
 >
-> "Today our business model is straightforward: we earn a capacity payment every month just for being available, and an energy payment every time the grid calls us. On the same hardware, we run compute workloads. Two revenue streams, one asset.
->
-> But this is now becoming an AI powered technology business. We have proven the model on our own sites. We are now onboarding clients — data centres who want us to run their flexibility, wind farm operators who want passive revenue from curtailment, and flexibility operators who want to automate what they currently do manually.
->
-> Each new client adds revenue without proportional capital expenditure on our side. The technology scales. The team does not need to double.
->
-> And the unit economics on own sites already show the picture: three hundred and fifty thousand dollars installed. Three hundred and ten thousand in gross profit per megawatt, per year. Eighteen-month payback."
+> "The model today is simple. We earn a capacity payment every hour for being available, and an energy payment each time the grid calls us. The same hardware simultaneously runs compute workloads. Two contracted revenue streams. One asset.
+> 
+> The next phase is a technology business layered on top of that. Every client we onboard adds revenue without proportional capital expenditure. The stack is already built. The incremental cost of serving the next client is marginal.
+> 
+> The unit economics on our own sites: four hundred and fifty thousand dollars per megawatt installed. Three hundred and ten thousand in annual gross profit per megawatt. Eighteen-month payback. Greater than fifty percent IRR in Phase one.
+> 
+> We are not projecting this. We are already operating it."
 
 ---
 
@@ -343,19 +341,19 @@ Flexionics operates two hybrid data centre sites in Sweden, serving as the live 
 
 ### Speaker Notes (Bipin — word-for-word)
 >
-> "Five of us who have done this before.
->
-> I'm Bipin. Risk management background at the Hong Kong Stock Exchange, Deutsche Bank. I know how markets price volatility.
->
-> Amy Shuai is our CFO. Chartered Accountant with twenty-five years across UBS, Deutsche Bank, and RBS. She keeps the money honest and the cap table clean.
->
-> Our CTO spent years running AI and machine learning for tier-one investment banking. He built the intelligence layer.
->
-> Giridhar Gandi leads our flexibility operations. He is the reason our grid participation is technically precise.
->
-> And Umang Thakkar is an AI product builder who architects our end-to-end automation pipelines.
->
-> Combined: we have done everything we are asking you to fund before, in larger institutions, with higher stakes."
+> "Five people. All of whom have executed this kind of work before, in larger institutions, at higher stakes.
+> 
+> I am Bipin. I built risk management systems at the London Clearing House, HKEX, Deutsche Bank, and the Japan Exchange Group. I understand precisely how markets price volatility — and how to structure assets to capture it.
+> 
+> Amy Shuai is our CFO. Chartered Accountant. Twenty-five years across UBS, Deutsche Bank, and RBS. She keeps the numbers clean and the capital structure defensible.
+> 
+> Our CTO spent years running AI and machine learning for tier-one investment banking. He designed our intelligence layer. His announcement is imminent.
+> 
+> Giridhar Gandi leads our flexibility operations. His grid participation is technically rigorous because he was trained in it — KTH Royal Institute, Siemens Energy, EIT InnoEnergy.
+> 
+> Umang Thakkar builds the AI products. Fourteen production systems deployed. He architects the automation pipelines that make this scalable.
+> 
+> Collectively — we have done everything we are asking you to fund. In bigger rooms. With sharper consequences."
 
 ---
 
@@ -400,13 +398,13 @@ Flexionics operates two hybrid data centre sites in Sweden, serving as the live 
 
 ### Speaker Notes (Bipin — word-for-word)
 >
-> "The ask: ten point five million dollars. Convertible preferred equity.
->
-> This takes us from fourteen megawatts to forty-four. Three times the current capacity. It also launches our platform commercially — FaaS clients, wind partnerships, AI automation licensing.
-<!-- FINANCIALS REMOVED:
-> The financial case: IRR above fifty percent on Phase 1. Revenue reaching fifty-two point nine million by 2027 at a seventy-two percent EBITDA margin. And because Phase 1 is so cash-generative, Phase 2 — another four and a half million — is mostly funded internally.
--->
-<!-- We are a profitable operating business today. This raise is an accelerant, not a lifeline." -->
+> "Ten point five million dollars. Convertible preferred equity.
+> 
+> This takes us from fourteen megawatts to forty-four. Three times the installed capacity. It also funds the commercial launch of FaaS, the first wind farm deployment, and the AI automation licensing product.
+> 
+> Use of funds: hardware and installation at Utansjö, TSO prequalification for new capacity, FaaS commercial launch and first client acquisition, a Nordic wind farm pilot, and working capital reserve.
+> 
+> One raise. Three times the capacity. Commercial-stage revenue from day one of deployment."
 
 ---
 
@@ -438,18 +436,20 @@ The AI automation stack (AI Operations Platform, Health Monitor, Cloud Fleet Man
 
 ### Speaker Notes (Bipin — word-for-word)
 >
-> "Four exit paths. All credible. All near-term.
->
-> First — and most likely — strategic acquisition. The utilities building flexibility portfolios are in this room. They are not building from scratch in three years. They are buying. We are what they want to buy.
->
-> Second — infrastructure fund buyout. Contracted recurring revenue, physical assets, proven platform. This is infrastructure, priced like infrastructure.
->
-> Third — IPO. By 2030 we are a meaningful revenue-generating platform in a three-hundred-billion-dollar market. The listing case writes itself.
->
-> Fourth — platform sale. Our technology stack has independent SaaS value. It can be sold apart from the physical business if the market dictates it.
->
-> We are operating and building. The exit paths are multiple, the upside is asymmetric, and the risk is already substantially de-risked by eleven thousand activations and six million dollars in delivered revenue.
->
+> "Four credible paths. All near-term.
+> 
+> Strategic acquisition. The utilities building flexibility portfolios need assets they cannot construct from scratch in the timeframe the market requires. RWE, E.ON — they are in this room. We are precisely what their internal teams have been commissioned to find and cannot build in time.
+> 
+> Infrastructure fund buyout. Contracted recurring revenue, physical assets, a proven technology stack, and a sub-eighteen-month payback. This is an infrastructure asset — and it prices like one. Comparable renewable buyouts clear at fifteen to twenty times EBITDA.
+> 
+> IPO. By 2030, we are a material revenue-generating business in a three-hundred-billion-dollar market. The listing case is straightforward.
+> 
+> Technology platform sale. The AI automation stack — Operations Engine, Fleet Manager, Edge Controller, Health Monitor — has independent SaaS value. It can be monetised separately from the physical business if market conditions dictate it.
+> 
+> The upside is asymmetric. The downside is substantially de-risked by eleven thousand activations and six million dollars in delivered, cleared revenue.
+> 
+> That is the position we are in. That is what you are investing in.
+> 
 > Thank you."
 
 ---

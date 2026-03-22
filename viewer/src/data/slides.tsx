@@ -14,34 +14,31 @@ export const slides: SlideData[] = [
     title: 'Cover',
     hideTitle: true,
     content: (
-      <div className="relative w-full h-full flex items-center justify-center overflow-hidden rounded-2xl">
-        <img src="/wind_farm_datacentre_1773836471350.png" alt="Nordic Data Centre" className="absolute inset-0 w-full h-full object-cover opacity-60 mix-blend-overlay" />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#05080c] via-[#05080c]/80 to-transparent"></div>
-        <div className="relative z-10 w-full max-w-5xl px-12 py-8 flex flex-col items-start gap-4">
-          <div className="flex items-center gap-4 mb-4">
-             <img src="/logo-white.svg" alt="Flexionics" className="h-10" />
-          </div>
-          <h1 className="text-5xl lg:text-7xl font-bold tracking-tighter text-white leading-tight">
-            FLEXIONICS
-          </h1>
-          <p className="text-2xl lg:text-3xl font-light text-teal-400 mt-2">
-            Enabling the Energy Transition — Bit by Bit
-          </p>
-          <div className="w-24 h-1 bg-teal-500 rounded-full mt-4"></div>
-          <p className="text-lg text-slate-300 max-w-2xl mt-4 leading-relaxed">
+      <div className="relative w-full h-full flex overflow-hidden rounded-2xl bg-[#05080c]">
+        {/* Right half image */}
+        <div className="absolute top-0 right-0 w-[60%] h-full">
+          <img src="/wind_farm_datacentre_1773836471350.png" alt="Nordic Data Centre" className="w-full h-full object-cover opacity-90" />
+          <div className="absolute inset-y-0 left-0 w-48 bg-gradient-to-r from-white via-white/80 to-transparent"></div>
+        </div>
+        
+        {/* Left half text */}
+        <div className="relative z-10 w-[45%] h-full bg-white pl-8 pr-6 py-8 flex flex-col justify-center items-start gap-4">
+          <img src="/logo-black-tagline.svg" alt="Flexionics" className="h-[110px] mb-2 -ml-2" />
+          <div className="w-24 h-1 bg-teal-500 rounded-full mt-2"></div>
+          <p className="text-2xl text-slate-800 max-w-sm mt-4 leading-relaxed font-medium pb-12">
             Transforming compute infrastructure into high-value grid flexibility.
           </p>
         </div>
       </div>
     ),
-    speakerNotes: "Good afternoon. I'm Bipin Patel, CEO and Founder of Flexionics.\n\nFlexionics exists at the intersection of computation and grid infrastructure. We transform flexible assets — data centres, compute clusters — into active participants in the energy market. Our technology anticipates, adapts, and optimises in real time.\n\nThe energy transition demands more than ambition. It demands flexible intelligence. That's what we build — bit by bit.\n\n*(Pause. Let the tagline land. Walk to the centre of the stage.)*"
+    speakerNotes: "Flexionics operates at the boundary between compute infrastructure and grid infrastructure. We take flexible assets — HPC data centres, industrial loads — and turn them into active, contracted participants in energy markets. Our technology decides, adapts, and executes in real time.\n\nThe grid does not need ambition. It needs millisecond-accurate intelligence. That is what we build.\n\n[Pause. Step forward.]"
   },
   {
     id: 'problem',
     title: 'The Problem',
     hideTitle: true,
     content: (
-      <div className="w-full h-full bg-[#0a0f16] flex flex-col justify-center px-10 relative py-8">
+      <div className="w-full h-full bg-[#05080c] flex flex-col justify-center px-10 relative py-8">
         <div className="absolute top-8 right-10">
           <div className="inline-flex flex-col items-end">
             <span className="text-4xl font-bold text-teal-400">42.5%</span>
@@ -69,7 +66,7 @@ export const slides: SlideData[] = [
         </div>
       </div>
     ),
-    speakerNotes: "Three problems.\n\nFirst — the grid itself. Renewables are being added faster than the grid can handle them. Frequency deviations are happening in milliseconds. The assets we've had for decades — spinning reserves, slow-responding loads — are not fast or cheap enough to keep up.\n\nSecond — wind farms are being squeezed. Curtailment orders. Negative prices. Settlement penalties at every fifteen-minute interval. Revenue is being destroyed not because the wind stops — but because the grid cannot absorb what's being generated.\n\nThird — battery storage is real, but it is not the complete answer. Max out at ~4 hours of discharge. High capital cost. Degradation with every cycle. Compute-based flexibility offers something different: near-zero marginal cost after installation, and a second revenue stream from the compute itself running in parallel.\n\nThree problems. Flexionics solves all three with one AI powered technology stack."
+    speakerNotes: "Three structural problems. All of them unsolved. All of them creating value for whoever solves them first.\n\nOne. The grid. Renewables are being connected faster than balancing infrastructure can absorb them. Frequency deviations are measured in milliseconds now. The reserves we built this system around — spinning reserves, slow-responding loads — are too slow, too expensive, and increasingly inadequate.\n\nTwo. Wind operators. Curtailment orders. Negative spot prices. Fifteen-minute imbalance penalties on both sides of the settlement window. Revenue is not being lost because the wind stopped. It is being lost because the grid cannot take what the wind is generating.\n\nThree. Batteries. Real technology, real value — but structurally incomplete. Four hours of discharge maximum. Capacity degrades with every charge cycle. High capital cost, long payback. Compute-based flexibility has near-zero marginal cost after installation, and it generates a second revenue stream while it waits.\n\nThree problems. One technology stack. That is Flexionics."
   },
   {
     id: 'solutions',
@@ -98,15 +95,14 @@ export const slides: SlideData[] = [
         <div className="absolute top-8 right-10 text-slate-500 font-medium tracking-wide text-xs border border-slate-800 p-2 rounded bg-slate-900/50">All three powered by our proprietary AI powered technology.</div>
       </div>
     ),
-    speakerNotes: "We are opening three capabilities — all built on the same proprietary AI powered technology stack.\n\nFirst: Flexibility as a Service. Any data centre or industrial load can connect to our infrastructure. We can run every stage of their grid participation — from TSO approval to collecting the monthly payment. They receive the revenue. We do the work.\n\nSecond: Wind and solar farm partnerships. We can install compute infrastructure at the farm, behind the meter. When curtailment hits — and it hits often — our servers absorb the generation that the grid can't take. What was a loss becomes a passive monthly payment to the operator.\n\nThird: AI Energy Market Automation. For operators who want the intelligence without the integration — we are building the AI layer to automate the trading desk, the compliance reporting, and the bid submission. This system will become a technology suite any operator can access."
+    speakerNotes: "We built this technology for our own sites. We are now opening it to the market — three distinct products, one underlying platform.\n\nSolution one: Flexibility as a Service. Any HPC data centre or industrial asset connects to our infrastructure. We handle every layer — TSO prequalification, daily bid submission, compliance reporting, settlement collection. The client receives the revenue. We operate it. We are not a software vendor. We are not an aggregator. We are a full-stack operator with direct skin in the game.\n\nSolution two: Wind and solar farm partnerships. We deploy compute infrastructure at the farm, behind the meter. When curtailment hits — and in SE1 and 2, it hits regularly — our servers absorb the excess generation the grid cannot take. The curtailment loss becomes a monthly revenue line for the operator. Zero additional operational burden on their side.\n\nSolution three: AI Energy Market Automation. For operators who want to participate in flexibility markets without building the internal capability — we are productising the intelligence layer. Automated bid submission. Automated TSO reporting. Automated audit evidence for every activation. The trading desk, the compliance function, and the reporting analyst — replaced by an AI-enabled software suite."
   },
   {
     id: 'proof',
     title: 'Proof: We run this ourselves first',
     hideTitle: true,
     content: (
-      <div className="w-full h-full bg-[#0a0f16] flex flex-col relative overflow-hidden">
-        <img src="/tech-hero.png" alt="Proof" className="absolute inset-0 w-full h-full object-cover opacity-20" />
+      <div className="w-full h-full bg-[#05080c] flex flex-col relative overflow-hidden">
         <div className="relative z-10 flex flex-col h-full justify-center px-10 py-8">
           <h2 className="text-xl font-bold text-teal-500 mb-2 tracking-widest uppercase">The Proof</h2>
           <h1 className="text-4xl font-bold text-white mb-4 tracking-tight">Before we offer it to others —<br/>we prove the core technology on ourselves.</h1>
@@ -203,7 +199,7 @@ export const slides: SlideData[] = [
          </div>
       </div>
     ),
-    speakerNotes: "Ten months of numbers. Not estimates. Not projections. These are cleared, settled, audited revenue events.\n\nOver six million dollars in total revenue. Fifty-eight percent of our revenue comes from ancillary services. Two hundred and twenty-nine and a half gigawatt-hours committed.\n\nEleven thousand, two hundred and forty-five times the Swedish national grid called us. Every single time, we answered.\n\nIn around two gigawatt-hours of those events, we were the only active asset delivering mFRR services in the entire SE1 market."
+    speakerNotes: "Ten months. Cleared, settled, audited numbers.\n\nOver six million dollars in total revenue. Fifty-eight percent from ancillary services. Two hundred and twenty-nine gigawatt-hours of capacity committed to the grid.\n\nThe Swedish national grid called us eleven thousand, two hundred and forty-five times. We answered every single one.\n\nIn approximately two gigawatt-hours of those activations — roughly ten percent — we were the only active asset delivering mFRR services in the entire SE1 market.\n\nNot the largest. The only one.\n\nThat is not a marketing claim. That is a settlement record."
   },
   {
     id: 'business_model',
@@ -265,7 +261,7 @@ export const slides: SlideData[] = [
         </div>
       </div>
     ),
-    speakerNotes: "Today our business model is straightforward: we earn a capacity payment every month just for being available, and an energy payment every time the grid calls us. On the same hardware, we run compute workloads. Two revenue streams, one asset.\n\nBut this is now becoming a technology business... We are now onboarding clients. Each new client adds revenue without proportional capital expenditure. The unit economics on own sites already show the picture: three hundred and fifty thousand dollars installed. Three hundred and ten thousand in gross profit per megawatt, per year. Eighteen-month payback."
+    speakerNotes: "The model today is simple. We earn a capacity payment every hour for being available, and an energy payment each time the grid calls us. The same hardware simultaneously runs compute workloads. Two contracted revenue streams. One asset.\n\nThe next phase is a technology business layered on top of that. Every client we onboard adds revenue without proportional capital expenditure. The stack is already built. The incremental cost of serving the next client is marginal.\n\nThe unit economics on our own sites: four hundred and fifty thousand dollars per megawatt installed. Three hundred and ten thousand in annual gross profit per megawatt. Eighteen-month payback. Greater than fifty percent IRR in Phase one.\n\nWe are not projecting this. We are already operating it."
   },
   {
     id: 'team',
@@ -299,7 +295,7 @@ export const slides: SlideData[] = [
         </div>
       </div>
     ),
-    speakerNotes: "Five of us who have done this before.\n\nI'm Bipin. Risk management background at the HKEX, Deutsche Bank. I know how markets price volatility. Amy Shuai is our CFO. Chartered Accountant with twenty-five years across UBS, Deutsche Bank, and RBS. She keeps the money honest and the cap table clean. Our CTO spent years running AI and machine learning for tier-one investment banking; he built our intelligence layer. Giridhar Gandi leads flexibility. He is the reason our grid participation is technically precise. And Umang Thakkar is an AI product builder who architects our end-to-end automation pipelines.\n\nCombined: we have done everything we are asking you to fund before, in larger institutions, with higher stakes."
+    speakerNotes: "Five people. All of whom have executed this kind of work before, in larger institutions, at higher stakes.\n\nI am Bipin. I built risk management systems at the London Clearing House, HKEX, Deutsche Bank, and the Japan Exchange Group. I understand precisely how markets price volatility — and how to structure assets to capture it.\n\nAmy Shuai is our CFO. Chartered Accountant. Twenty-five years across UBS, Deutsche Bank, and RBS. She keeps the numbers clean and the capital structure defensible.\n\nOur CTO spent years running AI and machine learning for tier-one investment banking. He designed our intelligence layer. His announcement is imminent.\n\nGiridhar Gandi leads our flexibility operations. His grid participation is technically rigorous because he was trained in it — KTH Royal Institute, Siemens Energy, EIT InnoEnergy.\n\nUmang Thakkar builds the AI products. Fourteen production systems deployed. He architects the automation pipelines that make this scalable.\n\nCollectively — we have done everything we are asking you to fund. In bigger rooms. With sharper consequences."
   },
   {
     id: 'ask',
@@ -336,7 +332,7 @@ export const slides: SlideData[] = [
         </div>
       </div>
     ),
-    speakerNotes: "The ask: ten point five million dollars. Convertible preferred equity.\n\nThis takes us from fourteen megawatts to forty-four. Three times the current capacity. It also launches our service commercially — FaaS clients, wind partnerships, AI automation licensing."
+    speakerNotes: "Ten point five million dollars. Convertible preferred equity.\n\nThis takes us from fourteen megawatts to forty-four. Three times the installed capacity. It also funds the commercial launch of FaaS, the first wind farm deployment, and the AI automation licensing product.\n\nUse of funds: hardware and installation at Utansjö, TSO prequalification for new capacity, FaaS commercial launch and first client acquisition, a Nordic wind farm pilot, and working capital reserve.\n\nOne raise. Three times the capacity. Commercial-stage revenue from day one of deployment."
   },
     {
     id: 'exit',
@@ -366,7 +362,7 @@ export const slides: SlideData[] = [
         </div>
       </div>
     ),
-    speakerNotes: "Four exit paths. All credible. All near-term.\n\nFirst — and most likely — strategic acquisition. The utilities building flexibility portfolios are in this room. They are not building from scratch in three years. They are buying. We are what they want to buy.\n\nSecond — infrastructure fund buyout. Contracted recurring revenue, physical assets, proven technology. This is infrastructure, priced like infrastructure.\n\nThird — IPO. By 2030 we are a meaningful revenue-generating business in a three-hundred-billion-dollar market. The listing case writes itself.\n\nFourth — technology sale. Our technology stack has independent SaaS value. It can be sold apart from the physical business if the market dictates it.\n\nWe are operating and building. The exit paths are multiple, the upside is asymmetric, and the risk is already substantially de-risked by eleven thousand activations and six million dollars in delivered revenue.\n\nThank you."
+    speakerNotes: "Four credible paths. All near-term.\n\nStrategic acquisition. The utilities building flexibility portfolios need assets they cannot construct from scratch in the timeframe the market requires. RWE, E.ON — they are in this room. We are precisely what their internal teams have been commissioned to find and cannot build in time.\n\nInfrastructure fund buyout. Contracted recurring revenue, physical assets, a proven technology stack, and a sub-eighteen-month payback. This is an infrastructure asset — and it prices like one. Comparable renewable buyouts clear at fifteen to twenty times EBITDA.\n\nIPO. By 2030, we are a material revenue-generating business in a three-hundred-billion-dollar market. The listing case is straightforward.\n\nTechnology platform sale. The AI automation stack — Operations Engine, Fleet Manager, Edge Controller, Health Monitor — has independent SaaS value. It can be monetised separately from the physical business if market conditions dictate it.\n\nThe upside is asymmetric. The downside is substantially de-risked by eleven thousand activations and six million dollars in delivered, cleared revenue.\n\nThat is the position we are in. That is what you are investing in.\n\nThank you."
   }
   /*
   {
