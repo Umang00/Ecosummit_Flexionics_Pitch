@@ -212,7 +212,7 @@ Flexionics operates two hybrid data centre sites in Sweden, serving as the live 
 | Ancillary Services Share | **58%** *(of total revenue)* |
 <!-- | Revenue Growth | **9× in 5 months ($56k to $487k from Jan–May 2025)** (Removed: Inconsistent revenue) -->
 | Grid Capacity Committed | **229.5 GWh** |
-| Real Grid Activations Delivered | **26.6 GWh** |
+| Real Energy Activation Deliveries | **26.6 GWh** |
 | mFRR Activations (SE1) | **11,245** |
 | Peak Monthly Ancillary Revenue | **$712k** *(June 2025)* |
 
@@ -274,7 +274,7 @@ Flexionics operates two hybrid data centre sites in Sweden, serving as the live 
 
 | Metric | Value |
 |--------|-------|
-| Install Cost | ~$350k/MW |
+| Install Cost | ~$450k/MW |
 | Annual Gross Profit | **~$310k/MW** |
 | Payback | **~18 months** |
 | IRR (Phase 1) | **>50%** |
@@ -396,7 +396,7 @@ Flexionics operates two hybrid data centre sites in Sweden, serving as the live 
 
 <!-- **Existing capital in:** 79.5M SEK in debt (Removed: avoids complication as group companies are involved) -->
 
-**Contact:** bipin.patel@flexionics.com | www.flexionics.com
+<!-- **Contact:** bipin.patel@flexionics.com | www.flexionics.com -->
 
 ### Speaker Notes (Bipin — word-for-word)
 >
@@ -410,168 +410,7 @@ Flexionics operates two hybrid data centre sites in Sweden, serving as the live 
 
 ---
 
-## Slide 9 — Appendix
-
-<div align="center">
-  <h1>Appendix</h1>
-</div>
-
----
-
-## Slide 10 — What Powers Our Operations
-
-<!-- TITLE CHANGED: From "Business Model & AI Stack" / "AI Platform (4 Products)" 
-REASON: "Products" implies we sell these individually — we don't. "AI platform" under-represents the non-AI components. The technology is our operational infrastructure, not a product suite.
-NEW TITLE: "What Powers Our Operations" or "Our Operational Technology Stack" — conveys that this is the infrastructure behind everything we do, not a separate product to be sold. -->
-
-### Visual Design
-
-- Clean 4-block diagram in a 2×2 or linear flow
-![AI Automation Platform](/ai_automation_platform_1773836490117.png)
-- Generic names (no Iceberg/Compass/Northwatch/Polaris)
-- Show flow: Signal → Control → Fleet → Audit → Report
-- Subtitle: "Built entirely in-house. Not licensed. Not outsourced."
-
-### Content
-
-**Headline:** What Powers Our Operations
-
-*Four technology layers, capturing our operational expertise in software:*
-
-**1. Edge Controller (Live)**
-Sub-200ms dispatch, <0.7s grid response. Local telemetry every 10 seconds. Stays operational even during connectivity loss. No SLA constraints.
-*Handles:* Activation execution, power ramp, setpoint tracking
-
-**2. Cloud Fleet Manager (In Development)**
-Designed for central oversight across all sites simultaneously. Bid management, win-rate analytics, audit trails, and TSO-compatible evidence exports.
-*Handles:* Fleet visibility, reporting, market interface
-
-<!-- PARTNER NAMES REMOVED 2026-03-18: Previously stated "SVK/Bixia-compatible evidence exports" and "bids submitted via API to Hansen and Bixia".
-- Bixia = our BRP/BSP partner (Balance Responsible Party / Balancing Service Provider through which we access the ancillary market)
-- Hansen (Hansen Technologies) = our trading software partner (provides the "Hansen Trade" platform used for bid submission)
-Both names removed from pitch-facing text as they require partner permission to name publicly. Replaced with generic industry terms (BSP partner, trading software platform). These can be named in 1-on-1 investor due diligence. -->
-
-**3. AI Automation Engine (In Development)**
-Training for automated trading and natural language querying. Built to generate and submit bids securely to our BSP partner.
-*Handles:* Bid strategy, TSO reporting, market intelligence
-
-**4. Predictive Health Monitor (In Development)**
-Advancing to provide 24/7 AI-driven monitoring. Early-warning drift detection before it becomes a compliance issue. Automated alerting.
-*Handles:* Asset health, reliability, regulatory readiness
-
-<!-- ORIGINAL NAMES PRESERVED: Edge Controller = Iceberg Edge, Cloud Fleet Manager = Iceberg Harbour, AI Automation Engine = Compass, Predictive Health Monitor = Northwatch. Polaris (fleet deployment) merged into Cloud Fleet Manager for slide brevity. Use original names in 1-on-1 technical discussions. -->
-
-**Key technology message:**
-> "No human trader can respond in 700 milliseconds without software. This isn't AI as a feature. This is AI as the operating system for the future grid."
-
-### Speaker Notes (Bipin — word-for-word)
->
-> "Four technology layers forming our proprietary intelligence stack.
->
-> Our site controllers are live today, executing sub-second responses before any human could react. To scale our current operations, we are engineering the subsequent layers: a cloud fleet manager for multi-site visibility, an AI engine to automate daily bid submissions, and a health monitor for predictive anomaly detection.
->
-> We have completed eleven thousand manual and third-party-assisted activations and now, we are capturing that operational mastery into our own software.
->
-> This isn't just a product feature. It is the operating system that will allow us to scale FaaS and wind partnerships globally without scaling proportional headcount."
-
----
-
-## Slide 11 — 2026 Roadmap
-
-### Visual Design
-
-- Clean timeline bar or three vertical pillars (one per initiative)
-- Capacity arrow: 14 MW → 44 MW prominently shown
-- Heading: "2026: Scale Distribution"
-
-### Content
-
-**Headline:** 2026 — From 14 MW to 44 MW. And opening to the world.
-
-*(Four programmatic scale initiatives — updated 2026-03-18 to add AI Market Automation as Initiative 3, consistent with our 3-solution go-to-market. Previously 3 initiatives from co-worker pitch deck Slide 6; BESS moved to Initiative 4.)*
-
-**Initiative 1: Flexibility as a Service — Global Launch**
-🔌 Launch FaaS for data centre operators outside our own sites. First clients onboarding.
-**Initiative 2: Wind Farm Pilot — Imbalance Management**
-🌬️ Deploy compute infrastructure at a wind site in the Nordic region. Absorb curtailment. Eliminate imbalance penalties. First proof of the wind partnership model.
-
-**Initiative 3: AI Market Automation — External Technology Launch**
-🤖 Open the AI Automation Engine to external flexibility operators. Enable operators to automate their bid submission, compliance reporting, and market analytics through our technology. First paying clients onboarded.
-
-<!-- ADDED 2026-03-18: AI Market Automation added as Initiative 3 — aligns with it being one of our 3 go-to-market solutions (Solution 3 in Slide 3) and a revenue stream in the Business Model slide (Slide 6). BESS moved from Initiative 3 → Initiative 4.  -->
-
-**Initiative 4: Integrated BESS — Hybrid Systems**
-🔋 Incorporate battery energy storage alongside compute. Maximise speed of response and unlock additional market products simultaneously (e.g., FCR-N + mFRR simultaneously at higher volumes).
-
-<!-- BESS MOVED 2026-03-18: Was Initiative 3, now Initiative 4 to accommodate AI Automation Initiative. -->
-
-**Capacity target:** 14 MW → **44 MW** by end of 2026 at Utansjö
-
-### Speaker Notes (Bipin — word-for-word)
->
-> "In 2026, four initiatives running in parallel.
->
-> One: FaaS goes live for external clients. The first data centre operators outside our own network start earning grid revenue through our technology.
->
-> Two: We deploy our first wind farm pilot in the Nordic region — testing the full curtailment-to-revenue model at a partner site. This is a preview of the expansion across our six-hundred-and-fifty megawatt pipeline.
->
-> Three: We open the AI automation technology to external operators. Any operator can now automate what our own team spent months building manually.
->
-> Four: we integrate battery storage into the hybrid system — unlocking additional market services at higher speeds and volumes simultaneously.
->
-> And through all of this: Utansjö expands. Fourteen megawatts becomes forty-four. Three times the current capacity."
-
----
-
-## Slide 12 — 2027 and Beyond
-
-### Visual Design
-
-- Four initiatives as icons in a clean horizontal row or 2×2 grid
-- Horizon framing — darker at bottom, lighter/teal gradient upward
-- Heading: "2027+: Compounding"
-
-### Content
-
-**Headline:** 2027 and Beyond — Compound Capabilities
-
-*(From co-worker pitch deck, Slide 7)*
-
-**1. Vallion Flow HFT Integration**
-☀️ Integrate a high-frequency trading-grade stack for energy arbitrage. Move from pure reserve markets to systematic energy trading.
-
-**2. Diverse Physical Assets**
-🚗 Onboard solar farms, EV fleets, residential battery systems, industrial loads. The technology becomes asset-class agnostic.
-
-**3. Market-Wide Systematic Trading**
-🏘️ Extend products to homes and commercial buildings — VPP (virtual power plant) model at scale. Systematic trading across residential and commercial flexibility.
-
-**4. Global Rollout**
-🌍 Expand to markets where renewable intermittency is structural: Germany, Norway, Japan. Full international flexibility management.
-
-**Long-term targets:**
-
-- **650 MW** pipeline across 9 Nordic wind farms
-- **1.5 TWh** flexibility delivered by 2030
-<!-- - 2027 Revenue target: **$52.9M** (Removed: 1-year-old projection, no longer relevant) -->
-
-### Speaker Notes (Bipin — word-for-word)
->
-> "In 2027, we compound.
->
-> We integrate a high-frequency trading stack — Vallion Flow — moving from reserve markets into systematic energy self-trading.
->
-> We add solar farms, EV fleets, and battery systems to the network. Assets we don't own — but whose flexibility we manage.
->
-> We extend to homes and businesses — virtual power plant logic applied at residential scale.
->
-> And we roll this out globally. Germany, Norway, Japan — anywhere that renewables are intermittent and the grid needs dispatchable intelligence.
->
-> The long-range picture: six hundred and fifty megawatts in our pipeline. One point five terawatt-hours of flexibility by 2030. And a model that does not require us to build new infrastructure at every new market — just a new API connection."
-
----
-
-## Slide 13 — Exit Strategy
+## Slide 9 — Exit Strategy
 
 ### Visual Design
 
@@ -613,6 +452,167 @@ The AI automation stack (AI Operations Platform, Health Monitor, Cloud Fleet Man
 >
 > Thank you."
 
+---
+<!--
+## Slide 10 — Appendix
+
+<div align="center">
+  <h1>Appendix</h1>
+</div>
+
+---
+
+## Slide 11 — What Powers Our Operations
+
+<!-- TITLE CHANGED: From "Business Model & AI Stack" / "AI Platform (4 Products)" 
+REASON: "Products" implies we sell these individually — we don't. "AI platform" under-represents the non-AI components. The technology is our operational infrastructure, not a product suite.
+NEW TITLE: "What Powers Our Operations" or "Our Operational Technology Stack" — conveys that this is the infrastructure behind everything we do, not a separate product to be sold.
+
+### Visual Design
+
+- Clean 4-block diagram in a 2×2 or linear flow
+![AI Automation Platform](/ai_automation_platform_1773836490117.png)
+- Generic names (no Iceberg/Compass/Northwatch/Polaris)
+- Show flow: Signal → Control → Fleet → Audit → Report
+- Subtitle: "Built entirely in-house. Not licensed. Not outsourced."
+
+### Content
+
+**Headline:** What Powers Our Operations
+
+*Four technology layers, capturing our operational expertise in software:*
+
+**1. Edge Controller (Live)**
+Sub-200ms dispatch, <0.7s grid response. Local telemetry every 10 seconds. Stays operational even during connectivity loss. No SLA constraints.
+*Handles:* Activation execution, power ramp, setpoint tracking
+
+**2. Cloud Fleet Manager (In Development)**
+Designed for central oversight across all sites simultaneously. Bid management, win-rate analytics, audit trails, and TSO-compatible evidence exports.
+*Handles:* Fleet visibility, reporting, market interface
+
+<!-- PARTNER NAMES REMOVED 2026-03-18: Previously stated "SVK/Bixia-compatible evidence exports" and "bids submitted via API to Hansen and Bixia".
+- Bixia = our BRP/BSP partner (Balance Responsible Party / Balancing Service Provider through which we access the ancillary market)
+- Hansen (Hansen Technologies) = our trading software partner (provides the "Hansen Trade" platform used for bid submission)
+Both names removed from pitch-facing text as they require partner permission to name publicly. Replaced with generic industry terms (BSP partner, trading software platform). These can be named in 1-on-1 investor due diligence.
+
+**3. AI Automation Engine (In Development)**
+Training for automated trading and natural language querying. Built to generate and submit bids securely to our BSP partner.
+*Handles:* Bid strategy, TSO reporting, market intelligence
+
+**4. Predictive Health Monitor (In Development)**
+Advancing to provide 24/7 AI-driven monitoring. Early-warning drift detection before it becomes a compliance issue. Automated alerting.
+*Handles:* Asset health, reliability, regulatory readiness
+
+<!-- ORIGINAL NAMES PRESERVED: Edge Controller = Iceberg Edge, Cloud Fleet Manager = Iceberg Harbour, AI Automation Engine = Compass, Predictive Health Monitor = Northwatch. Polaris (fleet deployment) merged into Cloud Fleet Manager for slide brevity. Use original names in 1-on-1 technical discussions.
+
+**Key technology message:**
+> "No human trader can respond in 700 milliseconds without software. This isn't AI as a feature. This is AI as the operating system for the future grid."
+
+### Speaker Notes (Bipin — word-for-word)
+>
+> "Four technology layers forming our proprietary intelligence stack.
+>
+> Our site controllers are live today, executing sub-second responses before any human could react. To scale our current operations, we are engineering the subsequent layers: a cloud fleet manager for multi-site visibility, an AI engine to automate daily bid submissions, and a health monitor for predictive anomaly detection.
+>
+> We have completed eleven thousand manual and third-party-assisted activations and now, we are capturing that operational mastery into our own software.
+>
+> This isn't just a product feature. It is the operating system that will allow us to scale FaaS and wind partnerships globally without scaling proportional headcount."
+
+---
+
+## Slide 12 — 2026 Roadmap
+
+### Visual Design
+
+- Clean timeline bar or three vertical pillars (one per initiative)
+- Capacity arrow: 14 MW → 44 MW prominently shown
+- Heading: "2026: Scale Distribution"
+
+### Content
+
+**Headline:** 2026 — From 14 MW to 44 MW. And opening to the world.
+
+*(Four programmatic scale initiatives — updated 2026-03-18 to add AI Market Automation as Initiative 3, consistent with our 3-solution go-to-market. Previously 3 initiatives from co-worker pitch deck Slide 6; BESS moved to Initiative 4.)*
+
+**Initiative 1: Flexibility as a Service — Global Launch**
+🔌 Launch FaaS for data centre operators outside our own sites. First clients onboarding.
+**Initiative 2: Wind Farm Pilot — Imbalance Management**
+🌬️ Deploy compute infrastructure at a wind site in the Nordic region. Absorb curtailment. Eliminate imbalance penalties. First proof of the wind partnership model.
+
+**Initiative 3: AI Market Automation — External Technology Launch**
+🤖 Open the AI Automation Engine to external flexibility operators. Enable operators to automate their bid submission, compliance reporting, and market analytics through our technology. First paying clients onboarded.
+
+<!-- ADDED 2026-03-18: AI Market Automation added as Initiative 3 — aligns with it being one of our 3 go-to-market solutions (Solution 3 in Slide 3) and a revenue stream in the Business Model slide (Slide 6). BESS moved from Initiative 3 → Initiative 4.
+
+**Initiative 4: Integrated BESS — Hybrid Systems**
+🔋 Incorporate battery energy storage alongside compute. Maximise speed of response and unlock additional market products simultaneously (e.g., FCR-N + mFRR simultaneously at higher volumes).
+
+<!-- BESS MOVED 2026-03-18: Was Initiative 3, now Initiative 4 to accommodate AI Automation Initiative.
+
+**Capacity target:** 14 MW → **44 MW** by end of 2026 at Utansjö
+
+### Speaker Notes (Bipin — word-for-word)
+>
+> "In 2026, four initiatives running in parallel.
+>
+> One: FaaS goes live for external clients. The first data centre operators outside our own network start earning grid revenue through our technology.
+>
+> Two: We deploy our first wind farm pilot in the Nordic region — testing the full curtailment-to-revenue model at a partner site. This is a preview of the expansion across our six-hundred-and-fifty megawatt pipeline.
+>
+> Three: We open the AI automation technology to external operators. Any operator can now automate what our own team spent months building manually.
+>
+> Four: we integrate battery storage into the hybrid system — unlocking additional market services at higher speeds and volumes simultaneously.
+>
+> And through all of this: Utansjö expands. Fourteen megawatts becomes forty-four. Three times the current capacity."
+
+---
+
+## Slide 13 — 2027 and Beyond
+
+### Visual Design
+
+- Four initiatives as icons in a clean horizontal row or 2×2 grid
+- Horizon framing — darker at bottom, lighter/teal gradient upward
+- Heading: "2027+: Compounding"
+
+### Content
+
+**Headline:** 2027 and Beyond — Compound Capabilities
+
+*(From co-worker pitch deck, Slide 7)*
+
+**1. Vallion Flow HFT Integration**
+☀️ Integrate a high-frequency trading-grade stack for energy arbitrage. Move from pure reserve markets to systematic energy trading.
+
+**2. Diverse Physical Assets**
+🚗 Onboard solar farms, EV fleets, residential battery systems, industrial loads. The technology becomes asset-class agnostic.
+
+**3. Market-Wide Systematic Trading**
+🏘️ Extend products to homes and commercial buildings — VPP (virtual power plant) model at scale. Systematic trading across residential and commercial flexibility.
+
+**4. Global Rollout**
+🌍 Expand to markets where renewable intermittency is structural: Germany, Norway, Japan. Full international flexibility management.
+
+**Long-term targets:**
+
+- **650 MW** pipeline across 9 Nordic wind farms
+- **1.5 TWh** flexibility delivered by 2030
+<!-- 2027 Revenue target: **$52.9M** (Removed: 1-year-old projection, no longer relevant)
+
+### Speaker Notes (Bipin — word-for-word)
+>
+> "In 2027, we compound.
+>
+> We integrate a high-frequency trading stack — Vallion Flow — moving from reserve markets into systematic energy self-trading.
+>
+> We add solar farms, EV fleets, and battery systems to the network. Assets we don't own — but whose flexibility we manage.
+>
+> We extend to homes and businesses — virtual power plant logic applied at residential scale.
+>
+> And we roll this out globally. Germany, Norway, Japan — anywhere that renewables are intermittent and the grid needs dispatchable intelligence.
+>
+> The long-range picture: six hundred and fifty megawatts in our pipeline. One point five terawatt-hours of flexibility by 2030. And a model that does not require us to build new infrastructure at every new market — just a new API connection."
+-->
 ---
 
 ## Production Checklist

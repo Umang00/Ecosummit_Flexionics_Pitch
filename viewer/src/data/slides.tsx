@@ -175,7 +175,7 @@ export const slides: SlideData[] = [
               { label: "Total Revenue", val: ">$6M" },
               { label: "Ancillary Services Share", val: "58%", sub: "of total revenue" },
               { label: "Grid Capacity Committed", val: "229.5 GWh" },
-              { label: "Real Grid Deliveries", val: "26.6 GWh" },
+              { label: "Real Energy Activation Deliveries", val: "26.6 GWh" },
               { label: "mFRR Activations (SE1)", val: "11,245" },
               { label: "Peak Mth Ancillary Rev", val: "$712k", sub: "(June 2025)" }
             ].map((stat, i) => (
@@ -248,7 +248,7 @@ export const slides: SlideData[] = [
         <div className="bg-teal-500/10 border border-teal-500/20 rounded-xl p-4 flex items-center justify-between">
           <div className="text-center">
              <span className="block text-slate-500 text-[10px] uppercase tracking-widest font-bold mb-1">Install Cost</span>
-             <span className="text-white font-bold text-lg">~$350k/MW</span>
+             <span className="text-white font-bold text-lg">~$450k/MW</span>
           </div>
           <div className="text-center">
              <span className="block text-slate-500 text-[10px] uppercase tracking-widest font-bold mb-1">Annual Gross Profit</span>
@@ -318,7 +318,7 @@ export const slides: SlideData[] = [
           <h4 className="text-lg font-bold text-white mb-4 uppercase tracking-wider">Use of Funds - Scale from being cash flow positive to P&L positive</h4>
           <ul className="space-y-3">
             {[
-              "Hardware procurement + installation at Utansjö",
+              "Power infrastructure and hardware procurement + installation / potential site acquisition",
               "Grid certification and TSO prequalification for new capacity",
               "FaaS platform commercial launch and first client acquisition",
               "Wind farm pilot deployment (Nordic region)",
@@ -338,6 +338,37 @@ export const slides: SlideData[] = [
     ),
     speakerNotes: "The ask: ten point five million dollars. Convertible preferred equity.\n\nThis takes us from fourteen megawatts to forty-four. Three times the current capacity. It also launches our service commercially — FaaS clients, wind partnerships, AI automation licensing."
   },
+    {
+    id: 'exit',
+    title: 'Exit Strategy',
+    hideTitle: true,
+    content: (
+      <div className="w-full h-full bg-[#05080c] flex flex-col justify-center px-10 relative py-8">
+        <h2 className="text-xl font-bold text-teal-500 mb-2 tracking-widest uppercase">The Horizon</h2>
+        <h1 className="text-4xl font-bold text-white tracking-tight mb-8">Clear paths to exit.<br/>Multiple. Near-term.</h1>
+
+        <div className="grid grid-cols-4 gap-4 items-stretch mb-8">
+          {[
+            { t: "1. Strategic Acquisition", d: "Large European utilities are building flexibility portfolios they can't build from scratch. RWE (via FEV) and E.ON are both attending this event. Flexionics is exactly what their internal teams have been commissioned to find — but cannot build in time." },
+            { t: "2. Infrastructure Fund Buyout", d: "Contracted recurring grid revenue + physical assets + operational platform = ideal infrastructure acquisition profile. Similar to renewable energy buyouts at 15–20× EBITDA." },
+            { t: "3. IPO", d: "By 2030, the ancillary services market reaches $300B. A listed flexibility platform commands material multiples. European green infrastructure IPO conditions are improving." },
+            { t: "4. Technology Platform Sale", d: "The AI automation stack (AI Operations Platform, Health Monitor, Cloud Fleet Manager, Site Controller) has standalone SaaS value entirely separate from the physical assets. This can be monetised independently or as a package." }
+          ].map((item, i) => (
+            <div key={i} className="bg-[#0a0f16] border border-slate-800 p-4 rounded-xl hover:border-teal-500/50 transition-colors h-full flex flex-col">
+              <h3 className="text-sm font-bold text-white mb-3 border-b border-slate-800 pb-2">{item.t}</h3>
+              <p className="text-slate-400 text-[10px] flex-1 leading-relaxed">{item.d}</p>
+            </div>
+          ))}
+        </div>
+
+        <div className="text-center w-full">
+           <span className="text-teal-500 font-bold block text-sm">Contact: bipin.patel@flexionics.com | www.flexionics.com</span>
+        </div>
+      </div>
+    ),
+    speakerNotes: "Four exit paths. All credible. All near-term.\n\nFirst — and most likely — strategic acquisition. The utilities building flexibility portfolios are in this room. They are not building from scratch in three years. They are buying. We are what they want to buy.\n\nSecond — infrastructure fund buyout. Contracted recurring revenue, physical assets, proven technology. This is infrastructure, priced like infrastructure.\n\nThird — IPO. By 2030 we are a meaningful revenue-generating business in a three-hundred-billion-dollar market. The listing case writes itself.\n\nFourth — technology sale. Our technology stack has independent SaaS value. It can be sold apart from the physical business if the market dictates it.\n\nWe are operating and building. The exit paths are multiple, the upside is asymmetric, and the risk is already substantially de-risked by eleven thousand activations and six million dollars in delivered revenue.\n\nThank you."
+  }
+  /*
   {
     id: 'appendix_divider',
     title: 'Appendix',
@@ -463,35 +494,5 @@ export const slides: SlideData[] = [
       </div>
     ),
     speakerNotes: "In 2027, we compound.\n\nWe integrate a high-frequency trading stack, moving from reserve markets into systematic energy self-trading. We add solar farms, EV fleets, and battery systems to the network. We extend to homes and businesses — virtual power plant logic applied at residential scale. And we roll this out globally. \n\nThe long-range picture: six hundred and fifty megawatts in our pipeline. One point five terawatt-hours of flexibility by 2030."
-  },
-  {
-    id: 'exit',
-    title: 'Exit Strategy',
-    hideTitle: true,
-    content: (
-      <div className="w-full h-full bg-[#05080c] flex flex-col justify-center px-10 relative py-8">
-        <h2 className="text-xl font-bold text-teal-500 mb-2 tracking-widest uppercase">The Horizon</h2>
-        <h1 className="text-4xl font-bold text-white tracking-tight mb-8">Clear paths to exit.<br/>Multiple. Near-term.</h1>
-
-        <div className="grid grid-cols-4 gap-4 items-stretch mb-8">
-          {[
-            { t: "1. Strategic Acquisition", d: "Large European utilities are building flexibility portfolios they can't build from scratch. RWE (via FEV) and E.ON are both attending this event. Flexionics is exactly what their internal teams have been commissioned to find — but cannot build in time." },
-            { t: "2. Infrastructure Fund Buyout", d: "Contracted recurring grid revenue + physical assets + operational platform = ideal infrastructure acquisition profile. Similar to renewable energy buyouts at 15–20× EBITDA." },
-            { t: "3. IPO", d: "By 2030, the ancillary services market reaches $300B. A listed flexibility platform commands material multiples. European green infrastructure IPO conditions are improving." },
-            { t: "4. Technology Platform Sale", d: "The AI automation stack (AI Operations Platform, Health Monitor, Cloud Fleet Manager, Site Controller) has standalone SaaS value entirely separate from the physical assets. This can be monetised independently or as a package." }
-          ].map((item, i) => (
-            <div key={i} className="bg-[#0a0f16] border border-slate-800 p-4 rounded-xl hover:border-teal-500/50 transition-colors h-full flex flex-col">
-              <h3 className="text-sm font-bold text-white mb-3 border-b border-slate-800 pb-2">{item.t}</h3>
-              <p className="text-slate-400 text-[10px] flex-1 leading-relaxed">{item.d}</p>
-            </div>
-          ))}
-        </div>
-
-        <div className="text-center w-full">
-           <span className="text-teal-500 font-bold block text-sm">Contact: bipin.patel@flexionics.com | www.flexionics.com</span>
-        </div>
-      </div>
-    ),
-    speakerNotes: "Four exit paths. All credible. All near-term.\n\nFirst — and most likely — strategic acquisition. The utilities building flexibility portfolios are in this room. They are not building from scratch in three years. They are buying. We are what they want to buy.\n\nSecond — infrastructure fund buyout. Contracted recurring revenue, physical assets, proven technology. This is infrastructure, priced like infrastructure.\n\nThird — IPO. By 2030 we are a meaningful revenue-generating business in a three-hundred-billion-dollar market. The listing case writes itself.\n\nFourth — technology sale. Our technology stack has independent SaaS value. It can be sold apart from the physical business if the market dictates it.\n\nWe are operating and building. The exit paths are multiple, the upside is asymmetric, and the risk is already substantially de-risked by eleven thousand activations and six million dollars in delivered revenue.\n\nThank you."
-  }
+  } */
 ];
