@@ -1,4 +1,4 @@
-import { Shield, Zap, Wind, Battery, Network, Globe, Cpu, Server } from 'lucide-react';
+import { Shield, Zap, Wind, Battery, Cpu, Server } from 'lucide-react';
 
 export interface SlideData {
   id: string;
