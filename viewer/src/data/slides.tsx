@@ -52,15 +52,17 @@ export const slides: SlideData[] = [
         
         <div className="grid grid-cols-3 gap-4">
           {[
-            { icon: <Zap className="w-6 h-6 text-amber-400" />, title: "The Grid Is Unstable", subtitle: "Who Feels It: Grid Operators & TSOs", desc: "Renewables are outpacing balancing infrastructure. Frequency deviations demand millisecond response. Today's assets are too slow and too expensive or not performant." },
-            { icon: <Wind className="w-6 h-6 text-teal-400" />, title: "Wind Industry Is Being Strained", subtitle: "Who Feels It: Wind Farm Operators", desc: "Curtailment orders, negative prices, and 15-min penalties are destroying wind farm returns. Revenue lost not because the wind stopped — but because the grid can't absorb it." },
-            { icon: <Battery className="w-6 h-6 text-blue-400" />, title: "Batteries Solve Only Part of the Problem", subtitle: "Who Feels It: Asset Owners & Investors", desc: "BESS matters, but lithium-ion grid batteries max out at ~4 hours of discharge. Add capacity fade over charge cycles and high CapEx leave a gap. Compute-based flexibility offers near-zero marginal cost." }
+            { icon: <Zap className="w-6 h-6 text-amber-400" />, title: "The Grid Is Unstable", subtitle: "Who Feels It: Grid Operators & TSOs", points: ["Renewables outpace balancing infrastructure", "Frequency deviations demand millisecond response", "Legacy assets are too slow and expensive"] },
+            { icon: <Wind className="w-6 h-6 text-teal-400" />, title: "Wind Industry Is Being Strained", subtitle: "Who Feels It: Wind Farm Operators", points: ["Curtailment orders and negative prices destroy returns", "15-minute imbalance penalties add massive costs", "Grid fundamentally cannot absorb excess generation"] },
+            { icon: <Battery className="w-6 h-6 text-blue-400" />, title: "Batteries Solve Only Part of the Problem", subtitle: "Who Feels It: Asset Owners & Investors", points: ["Lithium-ion maxes out at ~4 hours of discharge", "Capacity continuously fades over charge cycles", "Compute-based flexibility offers near-zero marginal cost"] }
           ].map((item, i) => (
-            <div key={i} className="bg-slate-800/40 border border-slate-700/50 p-5 rounded-xl flex flex-col gap-3 relative overflow-hidden group hover:border-teal-500/50 transition-colors">
+            <div key={i} className="bg-slate-800/40 border border-slate-700/50 p-5 rounded-xl flex flex-col gap-1 relative overflow-hidden group hover:border-teal-500/50 transition-colors">
               <div className="p-2 bg-slate-900 rounded-lg w-fit mb-1">{item.icon}</div>
-              <h3 className="text-xl font-bold text-white leading-tight">{item.title}</h3>
-              <span className="text-xs font-bold text-teal-500 tracking-wider uppercase">{item.subtitle}</span>
-              <p className="text-slate-400 leading-relaxed text-xs">{item.desc}</p>
+              <h3 className="text-xl font-bold text-white leading-tight mb-1">{item.title}</h3>
+              <span className="text-[10px] font-bold text-teal-500 tracking-wider uppercase mb-1">{item.subtitle}</span>
+              <ul className="text-slate-400 leading-relaxed text-xs space-y-1.5 list-disc pl-4">
+                {item.points.map((point, idx) => <li key={idx}>{point}</li>)}
+              </ul>
             </div>
           ))}
         </div>
@@ -78,16 +80,18 @@ export const slides: SlideData[] = [
         
         <div className="grid grid-cols-1 gap-3 mt-4">
           {[
-            { icon: <Server className="w-5 h-5" />, title: "Solution 1: Flexibility as a Service (FaaS)", tag: "For data centre and industrial asset owners", desc: "Any data centre or industrial load can connect to our infrastructure and we operate their grid flexibility — end to end. TSO prequalification, daily bid submission, 24/7 monitoring, compliance reporting. They earn the revenue. We handle everything. Not software. Not an aggregator. A full-stack operator with skin in the game." },
-            { icon: <Wind className="w-5 h-5" />, title: "Solution 2: Wind & Solar Farm Partnerships", tag: "For renewable energy operators", desc: "Wind operators in the Nordic region face curtailment losses, imbalance penalties, and negative spot prices. We can install compute infrastructure behind their meter. During curtailment, our servers absorb excess generation at near-zero cost. The loss becomes revenue. Zero operational burden on the farm." },
-            { icon: <Cpu className="w-5 h-5" />, title: "Solution 3: AI Energy Market Automation", tag: "For operators who want to automate their flexibility operations", desc: "Managing Nordic flexibility markets manually requires a specialist quant team, months of TSO setup, and daily bid windows. Our AI automation technology is being built to replace the trading desk, the reporting team, and the compliance analyst — automatically submitting bids, generating TSO reports, and producing audit evidence for every activation." }
+            { icon: <Server className="w-5 h-5" />, title: "Solution 1: Flexibility as a Service (FaaS)", tag: "For data centre and industrial asset owners", points: ["Connects any data centre to our infrastructure for end-to-end grid participation", "We handle TSO prequalification, daily bids, 24/7 monitoring, and compliance", "They earn the revenue, we handle everything — a full-stack operator with skin in the game"] },
+            { icon: <Wind className="w-5 h-5" />, title: "Solution 2: Wind & Solar Farm Partnerships", tag: "For renewable energy operators", points: ["Behind-the-meter compute deployment to absorb generation during curtailment", "Converts curtailment losses and negative spot prices into passive monthly revenue", "Eliminates imbalance penalties with zero operational burden on the farm"] },
+            { icon: <Cpu className="w-5 h-5" />, title: "Solution 3: AI Energy Market Automation", tag: "For operators who want to automate their flexibility operations", points: ["Replaces specialist trading desks with automated bidding and reporting", "Generates exact, TSO-compatible audit evidence for every market activation", "Brings institutional-grade intelligence to independent operators without the headcount"] }
           ].map((item, i) => (
             <div key={i} className="bg-gradient-to-r flex gap-4 from-slate-800/80 to-[#0a0f16] border border-slate-700 p-4 rounded-xl hover:-translate-y-1 transition-transform duration-300 shadow-xl items-start">
               <div className="w-12 h-12 shrink-0 rounded-xl bg-teal-500/20 text-teal-400 flex items-center justify-center">{item.icon}</div>
               <div>
                  <h3 className="text-lg font-bold text-white mb-1">{item.title}</h3>
                  <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-2">{item.tag}</p>
-                 <p className="text-slate-300 leading-relaxed text-xs pr-6">{item.desc}</p>
+                 <ul className="text-slate-300 leading-relaxed text-xs space-y-1 list-disc pl-4 pr-6">
+                   {item.points.map((p, idx) => <li key={idx}>{p}</li>)}
+                 </ul>
               </div>
             </div>
           ))}
@@ -345,14 +349,16 @@ export const slides: SlideData[] = [
 
         <div className="grid grid-cols-4 gap-4 items-stretch mb-8">
           {[
-            { t: "1. Strategic Acquisition", d: "Large European utilities are building flexibility portfolios they can't build from scratch. RWE (via FEV) and E.ON are both attending this event. Flexionics is exactly what their internal teams have been commissioned to find — but cannot build in time." },
-            { t: "2. Infrastructure Fund Buyout", d: "Contracted recurring grid revenue + physical assets + operational platform = ideal infrastructure acquisition profile. Similar to renewable energy buyouts at 15–20× EBITDA." },
-            { t: "3. IPO", d: "By 2030, the ancillary services market reaches $300B. A listed flexibility platform commands material multiples. European green infrastructure IPO conditions are improving." },
-            { t: "4. Technology Platform Sale", d: "The AI automation stack (AI Operations Platform, Health Monitor, Cloud Fleet Manager, Site Controller) has standalone SaaS value entirely separate from the physical assets. This can be monetised independently or as a package." }
+            { t: "1. Strategic Acquisition", points: ["Utilities (RWE, E.ON) need flexibility portfolios.", "Assets cannot be built internally in time.", "Flexionics solves exact utility mandates."] },
+            { t: "2. Infrastructure Buyout", points: ["Contracted recurring grid revenue models.", "Proven physical assets + operational platform.", "Pricing follows 15–20× EBITDA renewable models."] },
+            { t: "3. IPO", points: ["Ancillary services hit $300B market by 2030.", "Listed tech-forward platforms command premiums.", "Green infrastructure IPO window is reopening."] },
+            { t: "4. Tech Platform Sale", points: ["AI autonomy stack has massive standalone SaaS value.", "Separable from physical capital-heavy assets.", "Can be monetised independently or as a package."] }
           ].map((item, i) => (
             <div key={i} className="bg-[#0a0f16] border border-slate-800 p-4 rounded-xl hover:border-teal-500/50 transition-colors h-full flex flex-col">
               <h3 className="text-sm font-bold text-white mb-3 border-b border-slate-800 pb-2">{item.t}</h3>
-              <p className="text-slate-400 text-[10px] flex-1 leading-relaxed">{item.d}</p>
+              <ul className="text-slate-400 text-[11px] flex-1 leading-relaxed space-y-2 list-disc pl-4 pr-1">
+                {item.points.map((p, idx) => <li key={idx}>{p}</li>)}
+              </ul>
             </div>
           ))}
         </div>
